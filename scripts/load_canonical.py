@@ -44,9 +44,16 @@ BASE_DB_CONFIG = {
 }
 
 
-def get_db_config(dbname: str) -> dict:
+def get_db_config(dbname: str = "razorpay_recon") -> dict:
+    database_url = os.getenv("DATABASE_URL")
+    if database_url:
+        return {"dsn": database_url}
     cfg = BASE_DB_CONFIG.copy()
     cfg["dbname"] = dbname
+    cfg["host"] = os.getenv("DB_HOST", cfg["host"])
+    cfg["port"] = int(os.getenv("DB_PORT", cfg["port"]))
+    cfg["user"] = os.getenv("DB_USER", cfg["user"])
+    cfg["password"] = os.getenv("POSTGRES_PASSWORD") or os.getenv("DB_PASSWORD", cfg["password"])
     return cfg
 
 
@@ -492,7 +499,8 @@ def main(dbname: str = "razorpay_recon", truncate_first: bool = False):
     print("=" * 70)
     print(f"  CANONICAL POSTGRESQL LOADER v2.0.0")
     print("=" * 70)
-    print(f"\n  Database:       {dbname} @ {db_config['host']}:{db_config['port']}")
+    target_info = "DATABASE_URL DSN" if "dsn" in db_config else f"{dbname} @ {db_config['host']}:{db_config['port']}"
+    print(f"\n  Database:       {target_info}")
     print(f"  Normalized dir: {NORMALIZED_DIR}")
     print(f"  FK bypass:      DISABLED (strict FK enforcement)")
     print()
@@ -504,16 +512,15 @@ def main(dbname: str = "razorpay_recon", truncate_first: bool = False):
         print("  Connected to PostgreSQL.")
     except Exception as e:
         print(f"  ERROR: Cannot connect to {dbname}: {e}")
-        sys.exit(1)
+        raise RuntimeError(f"Cannot connect to database: {e}")
 
     # Verify NO FK bypass is active
     with conn.cursor() as cur:
         cur.execute("SHOW session_replication_role")
         role = cur.fetchone()[0]
         if role != "origin":
-            print(f"  ERROR: session_replication_role={role!r} — expected 'origin'")
             conn.close()
-            sys.exit(1)
+            raise RuntimeError(f"session_replication_role={role!r} — expected 'origin'")
         print(f"  session_replication_role = {role!r}  [FK enforcement ACTIVE - GOOD]")
 
     if truncate_first:
