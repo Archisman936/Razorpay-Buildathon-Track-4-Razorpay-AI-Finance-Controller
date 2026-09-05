@@ -6,11 +6,13 @@ from backend.app.core.config import Settings
 from backend.app.database.init_db import ensure_database_initialized
 from backend.app.database.connection import get_connection
 
-router = APIRouter(prefix="/system", tags=["system"])
+router = APIRouter(tags=["system"])
 
 
-@router.post("/init-db")
+@router.post("/system/init-db")
+@router.post("/api/v1/system/init-db")
 def init_database(settings: Settings = Depends(get_app_settings)) -> dict:
+
     """
     Initializes PostgreSQL tables from schema.sql and seeds canonical data.
     Safe to call repeatedly (idempotent).
@@ -18,8 +20,10 @@ def init_database(settings: Settings = Depends(get_app_settings)) -> dict:
     return ensure_database_initialized(settings)
 
 
-@router.get("/db-summary")
+@router.get("/system/db-summary")
+@router.get("/api/v1/system/db-summary")
 def get_db_summary(settings: Settings = Depends(get_app_settings)) -> dict:
+
     """Returns row counts for all core financial tables."""
     tables = [
         "merchants", "customers", "orders", "invoices", "payments",
