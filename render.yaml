@@ -40,4 +40,4 @@ databases:
     plan: free
     region: oregon
     databaseName: razorpay_recon
-    user: postgres
+    user: razorpay_user
