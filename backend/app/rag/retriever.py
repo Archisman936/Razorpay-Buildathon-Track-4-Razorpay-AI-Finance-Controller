@@ -47,10 +47,44 @@ class Retriever:
             logger.info("Retrieved %d chunks for query: %s", len(results), query[:50])
             return results
 
-        except VectorStoreError as e:
-            raise RetrievalError(f"Vector store error during retrieval: {e}") from e
         except Exception as e:
-            raise RetrievalError(f"Failed to retrieve chunks: {e}") from e
+            logger.warning("Vector retrieval failed (%s); using resilient document fallback.", e)
+            return self._fallback_keyword_search(query)
+
+    def _fallback_keyword_search(self, query: str) -> List[Dict[str, Any]]:
+        """Fallback to scanning docs/ directly to preserve memory and prevent OOM."""
+        from pathlib import Path
+        import re
+
+        docs_dir = Path(__file__).resolve().parents[3] / "docs"
+        if not docs_dir.exists():
+            return []
+
+        stopwords = {"the", "a", "an", "is", "of", "and", "in", "to", "what", "how", "why", "are", "for"}
+        words = set(re.findall(r"\w+", query.lower())) - stopwords
+        matched_chunks = []
+
+        for md_file in docs_dir.glob("*.md"):
+            try:
+                content = md_file.read_text(encoding="utf-8")
+                sections = re.split(r"\n(?=#{1,3}\s)", content)
+                for i, sec in enumerate(sections):
+                    sec_clean = sec.strip()
+                    if not sec_clean:
+                        continue
+                    score = sum(1 for w in words if w in sec_clean.lower())
+                    if score > 0 or not words:
+                        matched_chunks.append({
+                            "chunk_id": f"{md_file.stem}_{i}",
+                            "content": sec_clean[:1200],
+                            "metadata": {"source": md_file.name},
+                            "score": float(score),
+                        })
+            except Exception:
+                pass
+
+        matched_chunks.sort(key=lambda x: x["score"], reverse=True)
+        return matched_chunks[:self.top_k]
 
     def retrieve_with_metadata(
         self,

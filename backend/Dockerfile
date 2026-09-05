@@ -44,6 +44,11 @@ ENV RECONCILIATION_MODEL_DIR="/app/tools/ML_Models/Reconciliation Model" \
     EXCEPTION_MODEL_FILENAME="best_exception_classifier.joblib" \
     RAG_DOCUMENTS_PATH="/app/docs" \
     RAG_VECTOR_DB_PATH="/app/data/rag_vector_db" \
+    MALLOC_ARENA_MAX=2 \
+    PYTHONMALLOC=malloc \
+    OMP_NUM_THREADS=1 \
+    MKL_NUM_THREADS=1 \
+    TORCH_NUM_THREADS=1 \
     PORT=8000
 
 # Expose backend API port
@@ -54,4 +59,5 @@ HEALTHCHECK --interval=30s --timeout=10s --start-period=40s --retries=3 \
     CMD curl -f http://localhost:8000/api/v1/health || exit 1
 
 # Start FastAPI application with Uvicorn (supports dynamic $PORT on Render, Cloud Run, etc.)
-CMD ["sh", "-c", "uvicorn backend.app.main:app --host 0.0.0.0 --port ${PORT:-8000}"]
+CMD ["sh", "-c", "uvicorn backend.app.main:app --host 0.0.0.0 --port ${PORT:-8000} --workers 1 --limit-concurrency 20"]
+

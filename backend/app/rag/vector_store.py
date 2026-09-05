@@ -1,9 +1,5 @@
-"""Vector store for RAG system using ChromaDB."""
-
 from __future__ import annotations
 
-import chromadb
-from chromadb.config import Settings as ChromaSettings
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 from uuid import uuid4
@@ -24,13 +20,16 @@ class VectorStore:
     def __init__(self, persist_directory: Path, collection_name: str = "rag_documents"):
         self.persist_directory = persist_directory
         self.collection_name = collection_name
-        self._client: Optional[chromadb.Client] = None
-        self._collection: Optional[chromadb.Collection] = None
+        self._client: Optional[Any] = None
+        self._collection: Optional[Any] = None
 
     @property
-    def client(self) -> chromadb.Client:
+    def client(self) -> Any:
         """Lazy load ChromaDB client."""
         if self._client is None:
+            import chromadb
+            from chromadb.config import Settings as ChromaSettings
+
             self.persist_directory.mkdir(parents=True, exist_ok=True)
             self._client = chromadb.PersistentClient(
                 path=str(self.persist_directory),
@@ -43,19 +42,20 @@ class VectorStore:
         return self._client
 
     @property
-    def collection(self) -> chromadb.Collection:
+    def collection(self) -> Any:
         """Get or create the collection."""
         if self._collection is None:
             try:
                 self._collection = self.client.get_collection(name=self.collection_name)
                 logger.info("Using existing collection: %s", self.collection_name)
-            except chromadb.errors.NotFoundError:
+            except Exception:
                 self._collection = self.client.create_collection(
                     name=self.collection_name,
                     metadata={"description": "RAG documents for reconciliation system"},
                 )
                 logger.info("Created new collection: %s", self.collection_name)
         return self._collection
+
 
     def add_chunks(self, chunks: List[Chunk], embeddings: List[List[float]]) -> None:
         """Add chunks with their embeddings to the vector store."""
