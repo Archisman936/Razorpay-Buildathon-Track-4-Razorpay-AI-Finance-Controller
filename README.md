@@ -9,34 +9,34 @@ An end-to-end, AI-augmented financial reconciliation system built on top of a Ra
 ## Table of Contents
 
 1. [Project Overview](#1-project-overview)
-2. [High-Level Architecture](#2-high-level-architecture)
-3. [Data Generation](#3-data-generation)
-4. [Data Sources & Schema](#4-data-sources--schema)
-5. [Parsing](#5-parsing)
-6. [Validation](#6-validation)
-7. [Normalization](#7-normalization)
-8. [PostgreSQL — Financial Source of Truth](#8-postgresql--financial-source-of-truth)
-9. [Deterministic Reconciliation](#9-deterministic-reconciliation)
-10. [ML Development](#10-ml-development)
-11. [ML Model Artifacts](#11-ml-model-artifacts)
-12. [Backend Structure](#12-backend-structure)
-13. [Reconciliation Pipeline](#13-reconciliation-pipeline)
-14. [RAG — Retrieval-Augmented Generation](#14-rag--retrieval-augmented-generation)
-15. [LLM — Gemini Integration](#15-llm--gemini-integration)
-16. [Frontend Overview](#16-frontend-overview)
-17. [Dashboard](#17-dashboard)
-18. [File Upload Pipeline](#18-file-upload-pipeline)
-19. [AI Chatbot](#19-ai-chatbot)
-20. [API Endpoints](#20-api-endpoints)
-21. [Project Structure](#21-project-structure)
-22. [Environment Variables](#22-environment-variables)
-23. [Installation](#23-installation)
-24. [PostgreSQL Setup](#24-postgresql-setup)
-25. [Data Generation & Loading](#25-data-generation--loading)
-26. [ML Training](#26-ml-training)
-27. [RAG Ingestion](#27-rag-ingestion)
-28. [Running Locally](#28-running-locally)
-29. [Running with Docker & Docker Hub](#29-running-with-docker--docker-hub)
+2. [Running Locally](#2-running-locally)
+3. [Running with Docker & Docker Hub](#3-running-with-docker--docker-hub)
+4. [High-Level Architecture](#4-high-level-architecture)
+5. [Data Generation](#5-data-generation)
+6. [Data Sources & Schema](#6-data-sources--schema)
+7. [Parsing](#7-parsing)
+8. [Validation](#8-validation)
+9. [Normalization](#9-normalization)
+10. [PostgreSQL — Financial Source of Truth](#10-postgresql--financial-source-of-truth)
+11. [Deterministic Reconciliation](#11-deterministic-reconciliation)
+12. [ML Development](#12-ml-development)
+13. [ML Model Artifacts](#13-ml-model-artifacts)
+14. [Backend Structure](#14-backend-structure)
+15. [Reconciliation Pipeline](#15-reconciliation-pipeline)
+16. [RAG — Retrieval-Augmented Generation](#16-rag--retrieval-augmented-generation)
+17. [LLM — Gemini Integration](#17-llm--gemini-integration)
+18. [Frontend Overview](#18-frontend-overview)
+19. [Dashboard](#19-dashboard)
+20. [File Upload Pipeline](#20-file-upload-pipeline)
+21. [AI Chatbot](#21-ai-chatbot)
+22. [API Endpoints](#22-api-endpoints)
+23. [Project Structure](#23-project-structure)
+24. [Environment Variables](#24-environment-variables)
+25. [Installation](#25-installation)
+26. [PostgreSQL Setup](#26-postgresql-setup)
+27. [Data Generation & Loading](#27-data-generation--loading)
+28. [ML Training](#28-ml-training)
+29. [RAG Ingestion](#29-rag-ingestion)
 30. [Complete First-Time Setup Sequence](#30-complete-first-time-setup-sequence)
 31. [Testing](#31-testing)
 32. [System Health](#32-system-health)
@@ -102,7 +102,130 @@ The LLM **never determines financial truth**. Financial decisions are made by de
 
 ---
 
-## 2. High-Level Architecture
+## 2. Running Locally
+
+### Backend (FastAPI + Uvicorn)
+
+```bash
+# 1. Activate your Python virtual environment
+.venv\Scripts\activate                    # Windows PowerShell
+# source .venv/bin/activate               # Linux/macOS
+
+# 2. Run backend server
+python -m uvicorn backend.app.main:app --host 127.0.0.1 --port 8000
+
+# With auto-reload for development
+python -m uvicorn backend.app.main:app --host 127.0.0.1 --port 8000 --reload
+```
+
+- **Backend API**: `http://127.0.0.1:8000`
+- **Interactive Swagger Docs**: `http://127.0.0.1:8000/docs`
+- **System Health Endpoint**: `http://127.0.0.1:8000/api/v1/health`
+
+### Frontend (Vite + React)
+
+```bash
+cd frontend
+
+# Install dependencies (first time only)
+npm install
+
+# Start Vite development server
+npm run dev
+```
+
+- **Frontend Application**: `http://localhost:5173`
+- The Vite development server automatically proxies `/api` and `/health` requests to `http://localhost:8000`.
+
+---
+
+## 3. Running with Docker & Docker Hub
+
+Pre-built, production-ready container images are published on Docker Hub under `archisman2006`:
+- **Backend Image**: `archisman2006/razorpay-backend:latest`
+- **Frontend Image**: `archisman2006/razorpay-frontend:latest`
+
+### Option A: One-Click Full Stack via Docker Compose (Recommended)
+
+Run the entire system (PostgreSQL 15 + FastAPI Backend + Nginx React Frontend) in one command:
+
+```bash
+# 1. Start all containers in the background
+docker compose up -d
+
+# 2. Verify running services
+docker compose ps
+
+# 3. View live container logs
+docker compose logs -f
+```
+
+- **Frontend Web Dashboard**: `http://localhost` (Port 80)
+- **Backend API & Swagger Docs**: `http://localhost:8000/docs`
+- **PostgreSQL Database**: `localhost:5432`
+
+To shut down the stack:
+```bash
+docker compose down
+```
+
+### Option B: Pull & Run Pre-Built Images from Docker Hub
+
+Pull the official images directly:
+
+```bash
+docker pull archisman2006/razorpay-frontend:latest
+docker pull archisman2006/razorpay-backend:latest
+```
+
+**Run Backend container**:
+```bash
+docker run -d \
+  --name razorpay_backend \
+  -p 8000:8000 \
+  -e DB_HOST=host.docker.internal \
+  -e DB_PORT=5432 \
+  -e DB_NAME=razorpay_recon \
+  -e DB_USER=postgres \
+  -e DB_PASSWORD=your_postgres_password \
+  -e GEMINI_API_KEY=your_gemini_api_key \
+  archisman2006/razorpay-backend:latest
+```
+
+**Run Frontend container**:
+```bash
+docker run -d \
+  --name razorpay_frontend \
+  -p 80:80 \
+  -e BACKEND_URL=http://host.docker.internal:8000 \
+  archisman2006/razorpay-frontend:latest
+```
+
+### Option C: Build and Push Docker Images Locally
+
+If you modify code and wish to build fresh images:
+
+```bash
+# Build Backend image
+docker build -t archisman2006/razorpay-backend:latest -f backend/Dockerfile .
+
+# Build Frontend image
+docker build -t archisman2006/razorpay-frontend:latest -f frontend/Dockerfile ./frontend
+```
+
+Automated build and push scripts:
+```powershell
+# Windows PowerShell
+.\scripts\docker_build_and_push.ps1 -Username archisman2006 -Tag latest
+```
+```bash
+# Linux / macOS Bash
+./scripts/docker_build_and_push.sh archisman2006 latest
+```
+
+---
+
+## 4. High-Level Architecture
 
 ```
 ╔══════════════════════════════════════════════════════════╗
@@ -163,7 +286,7 @@ The LLM **never determines financial truth**. Financial decisions are made by de
 
 ---
 
-## 3. Data Generation
+## 5. Data Generation
 
 ### Overview
 
@@ -259,7 +382,7 @@ python scripts/load_canonical.py                  # Load normalised data into Po
 
 ---
 
-## 4. Data Sources & Schema
+## 6. Data Sources & Schema
 
 The database `razorpay_recon` contains 14 tables representing a complete payment-gateway ecosystem.
 
@@ -333,7 +456,7 @@ lineage_normalizer_ver      VARCHAR(20)     -- normalizer version
 
 ---
 
-## 5. Parsing
+## 7. Parsing
 
 The normalisation pipeline accepts the following raw file formats:
 
@@ -355,7 +478,7 @@ Parsers are located at `backend/app/services/normalization/parsers/`.
 
 ---
 
-## 6. Validation
+## 8. Validation
 
 After parsing, each record passes through the validation layer (`backend/app/services/normalization/validation/`):
 
@@ -371,7 +494,7 @@ After parsing, each record passes through the validation layer (`backend/app/ser
 
 ---
 
-## 7. Normalisation
+## 9. Normalisation
 
 The normalisation layer (`backend/app/services/normalization/`) maps heterogeneous source records into canonical PostgreSQL-ready structures.
 
@@ -401,7 +524,7 @@ backend/app/services/normalization/
 
 ---
 
-## 8. PostgreSQL — Financial Source of Truth
+## 10. PostgreSQL — Financial Source of Truth
 
 > **PostgreSQL is the single source of financial truth in this system.**
 > ML, RAG, and LLM all read from or refer to the database but never replace it.
@@ -455,7 +578,7 @@ backend/app/database/
 
 ---
 
-## 9. Deterministic Reconciliation
+## 11. Deterministic Reconciliation
 
 Deterministic reconciliation runs **first**, before any ML. It is transparent, auditable, and produces no false positives.
 
@@ -515,7 +638,7 @@ backend/app/services/reconciliation/
 
 ---
 
-## 10. ML Development
+## 12. ML Development
 
 > The ML development notebooks are in `tools/ML_Models/ML_Models_Code/`.
 > These are **the authoritative record** of all ML experimentation and model selection.
@@ -684,7 +807,7 @@ tools/ML_Models/Exception Classification/
 
 ---
 
-## 11. ML Model Artifacts
+## 13. ML Model Artifacts
 
 ```
 tools/ML_Models/
@@ -729,7 +852,7 @@ The backend **never retrains models**. It loads the serialised artifacts once at
 
 ---
 
-## 12. Backend Structure
+## 14. Backend Structure
 
 ```
 backend/
@@ -783,7 +906,7 @@ backend/
 
 ---
 
-## 13. Reconciliation Pipeline
+## 15. Reconciliation Pipeline
 
 The complete execution path for a single reconciliation case:
 
@@ -828,7 +951,7 @@ POST /api/v1/reconciliation/run
 
 ---
 
-## 14. RAG — Retrieval-Augmented Generation
+## 16. RAG — Retrieval-Augmented Generation
 
 RAG provides domain knowledge and reconciliation context to the LLM.
 
@@ -877,7 +1000,7 @@ ChromaDB persisted at `data/rag_vector_db/`. The vector store is built once duri
 
 ---
 
-## 15. LLM — Gemini Integration
+## 17. LLM — Gemini Integration
 
 ### SDK
 
@@ -923,7 +1046,7 @@ The `GeminiService` includes retry logic for transient API errors. If the Gemini
 
 ---
 
-## 16. Frontend Overview
+## 18. Frontend Overview
 
 The frontend is a React single-page application built with Vite.
 
@@ -950,7 +1073,7 @@ All backend communication goes through `frontend/src/api.js`. The Vite dev serve
 
 ---
 
-## 17. Dashboard
+## 19. Dashboard
 
 The dashboard (`/dashboard`) displays real metrics fetched from `GET /api/v1/dashboard/summary`.
 
@@ -969,7 +1092,7 @@ The dashboard (`/dashboard`) displays real metrics fetched from `GET /api/v1/das
 
 ---
 
-## 18. File Upload Pipeline
+## 20. File Upload Pipeline
 
 The Upload page (`/upload`) accepts files and triggers the complete backend pipeline.
 
@@ -1005,7 +1128,7 @@ POST /api/v1/upload/file  (multipart/form-data)
 
 ---
 
-## 19. AI Chatbot
+## 21. AI Chatbot
 
 The Chat page (`/chat`) connects to the LLM agent via `POST /api/v1/chat/message`.
 
@@ -1041,7 +1164,7 @@ React renders response with source citations
 
 ---
 
-## 20. API Endpoints
+## 22. API Endpoints
 
 ### Health
 
@@ -1113,7 +1236,7 @@ React renders response with source citations
 
 ---
 
-## 21. Project Structure
+## 23. Project Structure
 
 ```
 razorpay-ai-finance-controller/
@@ -1209,7 +1332,7 @@ razorpay-ai-finance-controller/
 
 ---
 
-## 22. Environment Variables
+## 24. Environment Variables
 
 Copy `.env.example` to `.env` and fill in your values:
 
@@ -1256,7 +1379,7 @@ cp .env.example .env
 
 ---
 
-## 23. Installation
+## 25. Installation
 
 ### Prerequisites
 
@@ -1290,7 +1413,7 @@ cd ..
 
 ---
 
-## 24. PostgreSQL Setup
+## 26. PostgreSQL Setup
 
 ```bash
 # 1. Install PostgreSQL (if not installed)
@@ -1312,7 +1435,7 @@ python scripts/audit_db.py
 
 ---
 
-## 25. Data Generation & Loading
+## 27. Data Generation & Loading
 
 Run these commands once in order to populate the database:
 
@@ -1337,7 +1460,7 @@ After these steps, the database will contain:
 
 ---
 
-## 26. ML Training
+## 28. ML Training
 
 > **Training is not required to run the application.**
 > Pre-trained artifacts are already in `tools/ML_Models/`.
@@ -1366,7 +1489,7 @@ The ML notebooks in `tools/ML_Models/ML_Models_Code/` document the complete trai
 
 ---
 
-## 27. RAG Ingestion
+## 29. RAG Ingestion
 
 Build the ChromaDB vector store from the `docs/` directory:
 
@@ -1381,129 +1504,6 @@ python scripts/ingest_rag.py --force
 This reads all Markdown files from `docs/`, chunks them, embeds them with `all-MiniLM-L6-v2`, and persists the vectors to `data/rag_vector_db/`.
 
 RAG ingestion is a one-time setup step. The vector store is reused across backend restarts.
-
----
-
-## 28. Running Locally
-
-### Backend (FastAPI + Uvicorn)
-
-```bash
-# 1. Activate your Python virtual environment
-.venv\Scripts\activate                    # Windows PowerShell
-# source .venv/bin/activate               # Linux/macOS
-
-# 2. Run backend server
-python -m uvicorn backend.app.main:app --host 127.0.0.1 --port 8000
-
-# With auto-reload for development
-python -m uvicorn backend.app.main:app --host 127.0.0.1 --port 8000 --reload
-```
-
-- **Backend API**: `http://127.0.0.1:8000`
-- **Interactive Swagger Docs**: `http://127.0.0.1:8000/docs`
-- **System Health Endpoint**: `http://127.0.0.1:8000/api/v1/health`
-
-### Frontend (Vite + React)
-
-```bash
-cd frontend
-
-# Install dependencies (first time only)
-npm install
-
-# Start Vite development server
-npm run dev
-```
-
-- **Frontend Application**: `http://localhost:5173`
-- The Vite development server automatically proxies `/api` and `/health` requests to `http://localhost:8000`.
-
----
-
-## 29. Running with Docker & Docker Hub
-
-Pre-built, production-ready container images are published on Docker Hub under `archisman2006`:
-- **Backend Image**: `archisman2006/razorpay-backend:latest`
-- **Frontend Image**: `archisman2006/razorpay-frontend:latest`
-
-### Option A: One-Click Full Stack via Docker Compose (Recommended)
-
-Run the entire system (PostgreSQL 15 + FastAPI Backend + Nginx React Frontend) in one command:
-
-```bash
-# 1. Start all containers in the background
-docker compose up -d
-
-# 2. Verify running services
-docker compose ps
-
-# 3. View live container logs
-docker compose logs -f
-```
-
-- **Frontend Web Dashboard**: `http://localhost` (Port 80)
-- **Backend API & Swagger Docs**: `http://localhost:8000/docs`
-- **PostgreSQL Database**: `localhost:5432`
-
-To shut down the stack:
-```bash
-docker compose down
-```
-
-### Option B: Pull & Run Pre-Built Images from Docker Hub
-
-Pull the official images directly:
-
-```bash
-docker pull archisman2006/razorpay-frontend:latest
-docker pull archisman2006/razorpay-backend:latest
-```
-
-**Run Backend container**:
-```bash
-docker run -d \
-  --name razorpay_backend \
-  -p 8000:8000 \
-  -e DB_HOST=host.docker.internal \
-  -e DB_PORT=5432 \
-  -e DB_NAME=razorpay_recon \
-  -e DB_USER=postgres \
-  -e DB_PASSWORD=your_postgres_password \
-  -e GEMINI_API_KEY=your_gemini_api_key \
-  archisman2006/razorpay-backend:latest
-```
-
-**Run Frontend container**:
-```bash
-docker run -d \
-  --name razorpay_frontend \
-  -p 80:80 \
-  -e BACKEND_URL=http://host.docker.internal:8000 \
-  archisman2006/razorpay-frontend:latest
-```
-
-### Option C: Build and Push Docker Images Locally
-
-If you modify code and wish to build fresh images:
-
-```bash
-# Build Backend image
-docker build -t archisman2006/razorpay-backend:latest -f backend/Dockerfile .
-
-# Build Frontend image
-docker build -t archisman2006/razorpay-frontend:latest -f frontend/Dockerfile ./frontend
-```
-
-Automated build and push scripts:
-```powershell
-# Windows PowerShell
-.\scripts\docker_build_and_push.ps1 -Username archisman2006 -Tag latest
-```
-```bash
-# Linux / macOS Bash
-./scripts/docker_build_and_push.sh archisman2006 latest
-```
 
 ---
 
