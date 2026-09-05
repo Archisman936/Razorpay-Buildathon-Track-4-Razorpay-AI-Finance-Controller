@@ -35,9 +35,9 @@ An end-to-end, AI-augmented financial reconciliation system built on top of a Ra
 25. [Data Generation & Loading](#25-data-generation--loading)
 26. [ML Training](#26-ml-training)
 27. [RAG Ingestion](#27-rag-ingestion)
-28. [Running the Backend](#28-running-the-backend)
-29. [Running the Frontend](#29-running-the-frontend)
-30. [Running Everything](#30-running-everything)
+28. [Running Locally](#28-running-locally)
+29. [Running with Docker & Docker Hub](#29-running-with-docker--docker-hub)
+30. [Complete First-Time Setup Sequence](#30-complete-first-time-setup-sequence)
 31. [Testing](#31-testing)
 32. [System Health](#32-system-health)
 33. [Security](#33-security)
@@ -1384,23 +1384,27 @@ RAG ingestion is a one-time setup step. The vector store is reused across backen
 
 ---
 
-## 28. Running the Backend
+## 28. Running Locally
+
+### Backend (FastAPI + Uvicorn)
 
 ```bash
-# From the razorpay-ai-finance-controller/ directory
+# 1. Activate your Python virtual environment
+.venv\Scripts\activate                    # Windows PowerShell
+# source .venv/bin/activate               # Linux/macOS
+
+# 2. Run backend server
 python -m uvicorn backend.app.main:app --host 127.0.0.1 --port 8000
 
 # With auto-reload for development
 python -m uvicorn backend.app.main:app --host 127.0.0.1 --port 8000 --reload
 ```
 
-The backend will be available at `http://127.0.0.1:8000`.
+- **Backend API**: `http://127.0.0.1:8000`
+- **Interactive Swagger Docs**: `http://127.0.0.1:8000/docs`
+- **System Health Endpoint**: `http://127.0.0.1:8000/api/v1/health`
 
-Interactive API docs: `http://127.0.0.1:8000/docs`
-
----
-
-## 29. Running the Frontend
+### Frontend (Vite + React)
 
 ```bash
 cd frontend
@@ -1408,55 +1412,121 @@ cd frontend
 # Install dependencies (first time only)
 npm install
 
-# Start development server
+# Start Vite development server
 npm run dev
 ```
 
-The frontend will be available at `http://localhost:5173`.
-
-The Vite dev server proxies all `/api/v1` requests to `http://localhost:8000`.
+- **Frontend Application**: `http://localhost:5173`
+- The Vite development server automatically proxies `/api` and `/health` requests to `http://localhost:8000`.
 
 ---
 
-## 30. Running Everything
+## 29. Running with Docker & Docker Hub
 
-Complete startup sequence for a fresh environment:
+Pre-built, production-ready container images are published on Docker Hub under `archisman2006`:
+- **Backend Image**: `archisman2006/razorpay-backend:latest`
+- **Frontend Image**: `archisman2006/razorpay-frontend:latest`
+
+### Option A: One-Click Full Stack via Docker Compose (Recommended)
+
+Run the entire system (PostgreSQL 15 + FastAPI Backend + Nginx React Frontend) in one command:
 
 ```bash
-# ─── Terminal 1: Backend ──────────────────────────────────────────
-cd "path/to/razorpay-ai-finance-controller"
+# 1. Start all containers in the background
+docker compose up -d
 
-# Activate Python environment
-.venv\Scripts\activate                    # Windows
-# source .venv/bin/activate               # Linux/macOS
+# 2. Verify running services
+docker compose ps
 
-# Ensure .env is configured
-# (POSTGRES_PASSWORD and GEMINI_API_KEY must be set)
-
-# Start backend
-python -m uvicorn backend.app.main:app --host 127.0.0.1 --port 8000
-
-# ─── Terminal 2: Frontend ─────────────────────────────────────────
-cd "path/to/razorpay-ai-finance-controller/frontend"
-npm run dev
+# 3. View live container logs
+docker compose logs -f
 ```
 
-**Access the application at** `http://localhost:5173`
+- **Frontend Web Dashboard**: `http://localhost` (Port 80)
+- **Backend API & Swagger Docs**: `http://localhost:8000/docs`
+- **PostgreSQL Database**: `localhost:5432`
 
-### First-time setup (one-time commands)
+To shut down the stack:
+```bash
+docker compose down
+```
+
+### Option B: Pull & Run Pre-Built Images from Docker Hub
+
+Pull the official images directly:
 
 ```bash
-# PostgreSQL database
+docker pull archisman2006/razorpay-frontend:latest
+docker pull archisman2006/razorpay-backend:latest
+```
+
+**Run Backend container**:
+```bash
+docker run -d \
+  --name razorpay_backend \
+  -p 8000:8000 \
+  -e DB_HOST=host.docker.internal \
+  -e DB_PORT=5432 \
+  -e DB_NAME=razorpay_recon \
+  -e DB_USER=postgres \
+  -e DB_PASSWORD=your_postgres_password \
+  -e GEMINI_API_KEY=your_gemini_api_key \
+  archisman2006/razorpay-backend:latest
+```
+
+**Run Frontend container**:
+```bash
+docker run -d \
+  --name razorpay_frontend \
+  -p 80:80 \
+  -e BACKEND_URL=http://host.docker.internal:8000 \
+  archisman2006/razorpay-frontend:latest
+```
+
+### Option C: Build and Push Docker Images Locally
+
+If you modify code and wish to build fresh images:
+
+```bash
+# Build Backend image
+docker build -t archisman2006/razorpay-backend:latest -f backend/Dockerfile .
+
+# Build Frontend image
+docker build -t archisman2006/razorpay-frontend:latest -f frontend/Dockerfile ./frontend
+```
+
+Automated build and push scripts:
+```powershell
+# Windows PowerShell
+.\scripts\docker_build_and_push.ps1 -Username archisman2006 -Tag latest
+```
+```bash
+# Linux / macOS Bash
+./scripts/docker_build_and_push.sh archisman2006 latest
+```
+
+---
+
+## 30. Complete First-Time Setup Sequence
+
+For a fresh clone on a new machine, execute these one-time setup steps in order:
+
+```bash
+# 1. Initialize PostgreSQL database
 psql -U postgres -c "CREATE DATABASE razorpay_recon;"
 psql -U postgres -d razorpay_recon -f database/schema/schema.sql
 
-# Generate and load data
+# 2. Generate and load synthetic financial records
 python tools/data_generation/generate_all.py
 python scripts/normalize_all.py
 python scripts/load_canonical.py
 
-# Build RAG vector store
+# 3. Build RAG ChromaDB knowledge vector store
 python scripts/ingest_rag.py
+
+# 4. Start servers
+# Terminal 1 (Backend): python -m uvicorn backend.app.main:app --host 127.0.0.1 --port 8000
+# Terminal 2 (Frontend): cd frontend && npm run dev
 ```
 
 ---
