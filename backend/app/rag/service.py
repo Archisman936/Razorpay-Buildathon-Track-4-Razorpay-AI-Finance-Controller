@@ -59,8 +59,10 @@ class RAGService:
         """Retrieve relevant chunks for a query."""
         try:
             return self.retriever.retrieve(query)
-        except RetrievalError as e:
-            raise RAGServiceError(f"Retrieval failed: {e}") from e
+        except BaseException as e:
+            logger.warning("RAG retrieve encountered error (%s); using fallback scanner.", e)
+            return self.retriever._fallback_keyword_search(query)
+
 
     def retrieve_with_metadata(self, query: str) -> Dict[str, Any]:
         """Retrieve chunks with structured metadata."""

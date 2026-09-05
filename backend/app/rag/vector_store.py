@@ -120,11 +120,9 @@ class VectorStore:
         """Get the total number of chunks in the collection."""
         try:
             return self.collection.count()
-        except chromadb.errors.NotFoundError:
-            # Collection doesn't exist yet
+        except BaseException:
+            # Collection doesn't exist yet or store offline
             return 0
-        except Exception as e:
-            raise VectorStoreError(f"Failed to get collection count: {e}") from e
 
     def clear(self) -> None:
         """Clear all documents from the collection."""
@@ -150,9 +148,10 @@ class VectorStore:
                 "document_count": count,
                 "persist_directory": str(self.persist_directory),
             }
-        except Exception as e:
+        except BaseException as e:
             return {
                 "ok": False,
                 "error": str(e),
                 "collection_name": self.collection_name,
             }
+

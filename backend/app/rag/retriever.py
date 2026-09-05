@@ -47,9 +47,10 @@ class Retriever:
             logger.info("Retrieved %d chunks for query: %s", len(results), query[:50])
             return results
 
-        except Exception as e:
+        except BaseException as e:
             logger.warning("Vector retrieval failed (%s); using resilient document fallback.", e)
             return self._fallback_keyword_search(query)
+
 
     def _fallback_keyword_search(self, query: str) -> List[Dict[str, Any]]:
         """Fallback to scanning docs/ directly to preserve memory and prevent OOM."""

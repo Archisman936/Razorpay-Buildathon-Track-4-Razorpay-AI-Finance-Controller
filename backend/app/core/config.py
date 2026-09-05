@@ -75,7 +75,8 @@ class Settings:
 
         # LLM Configuration
         self.gemini_api_key = _env("GEMINI_API_KEY", "")
-        self.gemini_model = _env("GEMINI_MODEL", "gemini-2.0-flash")
+        self.gemini_model = _env("GEMINI_MODEL", "gemini-3.6-flash")
+
 
         # RAG Configuration
         self.rag_documents_path = Path(

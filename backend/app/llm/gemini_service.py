@@ -44,6 +44,14 @@ class GeminiService:
                 raise GeminiServiceError(f"Failed to initialize Gemini client: {e}") from e
         return self._client
 
+    @property
+    def model_name(self) -> str:
+        """Resolve model name, automatically upgrading deprecated models."""
+        raw_model = (self.settings.gemini_model or "gemini-3.6-flash").strip()
+        if raw_model in ("gemini-2.0-flash", "gemini-1.5-flash", "gemini-2.0-flash-exp"):
+            return "gemini-3.6-flash"
+        return raw_model
+
     def generate_content(
         self,
         prompt: str,
@@ -55,15 +63,17 @@ class GeminiService:
         if not prompt or not prompt.strip():
             raise GeminiServiceError("Prompt cannot be empty")
 
+        target_model = self.model_name
+        fallback_models = [m for m in ["gemini-3.6-flash", "gemini-3.1-flash-lite"] if m != target_model]
+
         config_kwargs: Dict[str, Any] = {
             "temperature": temperature,
         }
         if max_output_tokens:
-            # Modern Gemini models need sufficient token ceiling for output generation
             config_kwargs["max_output_tokens"] = max(max_output_tokens, 500)
 
         # Gemini 3.8 Flash migration guidance: use thinking_level="low" instead of deprecated thinking_budget
-        if "3.8" in self.settings.gemini_model and "flash" in self.settings.gemini_model.lower():
+        if "3.8" in target_model and "flash" in target_model.lower():
             config_kwargs["thinking_config"] = types.ThinkingConfig(
                 thinking_level="low"
             )
@@ -79,13 +89,13 @@ class GeminiService:
         for attempt in range(1, max_retries + 1):
             try:
                 response = self.client.models.generate_content(
-                    model=self.settings.gemini_model,
+                    model=target_model,
                     contents=prompt,
                     config=config,
                 )
 
                 if response.text:
-                    logger.info("Generated %d characters from Gemini", len(response.text))
+                    logger.info("Generated %d characters from Gemini (%s)", len(response.text), target_model)
                     return response.text
                 elif response.candidates and response.candidates[0].content and response.candidates[0].content.parts:
                     for part in response.candidates[0].content.parts:
@@ -97,10 +107,16 @@ class GeminiService:
 
             except APIError as e:
                 last_error = e
+                err_msg = str(e)
+                if ("404" in err_msg or "NOT_FOUND" in err_msg or "no longer available" in err_msg) and fallback_models:
+                    old_model = target_model
+                    target_model = fallback_models.pop(0)
+                    logger.warning("Model %s returned 404/deprecated. Auto-falling back to %s", old_model, target_model)
+                    continue
+
                 logger.warning("Gemini API error (attempt %d/%d): %s", attempt, max_retries, e)
                 if attempt < max_retries:
                     sleep_time = attempt * 2.0
-                    err_msg = str(e)
                     if "429" in err_msg or "RESOURCE_EXHAUSTED" in err_msg:
                         import re
                         match = re.search(r"retry in (\d+(?:\.\d+)?)s", err_msg, re.IGNORECASE)
@@ -112,6 +128,7 @@ class GeminiService:
                     time.sleep(sleep_time)
                 else:
                     raise GeminiServiceError(f"Failed to generate content: {e}") from e
+
             except GeminiServiceError:
                 raise
             except Exception as e:
@@ -155,8 +172,9 @@ class GeminiService:
                         parts = [types.Part.from_text(text=str(raw_parts))]
                     formatted_history.append(types.Content(role=role, parts=parts))
 
+            target_model = self.model_name
             chat_session = self.client.chats.create(
-                model=self.settings.gemini_model,
+                model=target_model,
                 history=formatted_history if formatted_history else None,
                 config=config,
             )
@@ -205,15 +223,16 @@ class GeminiService:
             test_response = self.generate_content("Ping", max_output_tokens=10)
             return {
                 "ok": True,
-                "model": self.settings.gemini_model,
+                "model": self.model_name,
                 "message": "Gemini service is operational",
             }
         except Exception as e:
             return {
                 "ok": False,
-                "model": self.settings.gemini_model,
+                "model": self.model_name,
                 "error": str(e),
             }
+
 
 
 def get_gemini_service(settings: Optional[Settings] = None) -> GeminiService:

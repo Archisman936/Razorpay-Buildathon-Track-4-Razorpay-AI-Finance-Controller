@@ -34,7 +34,8 @@ services:
       - DB_USER=${POSTGRES_USER:-postgres}
       - DB_PASSWORD=${POSTGRES_PASSWORD:-postgres}
       - GEMINI_API_KEY=${GEMINI_API_KEY}
-      - GEMINI_MODEL=${GEMINI_MODEL:-gemini-2.0-flash}
+      - GEMINI_MODEL=${GEMINI_MODEL:-gemini-3.6-flash}
+
       - RECONCILIATION_MODEL_DIR=/app/tools/ML_Models/Reconciliation Model
       - EXCEPTION_MODEL_DIR=/app/tools/ML_Models/Exception Classification
       - RAG_DOCUMENTS_PATH=/app/docs
