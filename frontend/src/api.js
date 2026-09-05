@@ -2,8 +2,13 @@
  * Centralized API client for Razorpay AI Finance Controller.
  * All requests proxy through Vite's dev server → http://localhost:8000
  */
+const DEFAULT_BACKEND = 'https://razorpay-backend-7akc.onrender.com/api/v1';
 
-const BASE = import.meta.env.VITE_API_BASE_URL || '/api/v1';
+const BASE = import.meta.env.VITE_API_BASE_URL || (
+  typeof window !== 'undefined' && (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')
+    ? '/api/v1'
+    : DEFAULT_BACKEND
+);
 
 async function request(path, options = {}) {
   const isFormData = options.body instanceof FormData;
