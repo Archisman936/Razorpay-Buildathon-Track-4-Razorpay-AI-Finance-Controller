@@ -1,0 +1,43 @@
+# ==============================================================================
+# Render Blueprint Specification: Razorpay AI Finance Controller
+# ==============================================================================
+
+services:
+  # ─── FastAPI Backend Web Service ───────────────────────────────────────────
+  - type: web
+    name: razorpay-backend
+    runtime: python
+    plan: free
+    region: oregon
+    buildCommand: "pip install --upgrade pip && pip install torch --index-url https://download.pytorch.org/whl/cpu && pip install -r requirements.txt"
+    startCommand: "uvicorn backend.app.main:app --host 0.0.0.0 --port $PORT"
+    healthCheckPath: /api/v1/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GEMINI_MODEL
+        value: gemini-2.0-flash
+      - key: DATABASE_URL
+        fromDatabase:
+          name: razorpay-postgres
+          property: connectionString
+      - key: RECONCILIATION_MODEL_DIR
+        value: tools/ML_Models/Reconciliation Model
+      - key: EXCEPTION_MODEL_DIR
+        value: tools/ML_Models/Exception Classification
+      - key: RAG_DOCUMENTS_PATH
+        value: docs
+      - key: RAG_VECTOR_DB_PATH
+        value: data/rag_vector_db
+      - key: CORS_ORIGINS
+        value: "*"
+
+databases:
+  # ─── Managed PostgreSQL Database ───────────────────────────────────────────
+  - name: razorpay-postgres
+    plan: free
+    region: oregon
+    databaseName: razorpay_recon
+    user: postgres

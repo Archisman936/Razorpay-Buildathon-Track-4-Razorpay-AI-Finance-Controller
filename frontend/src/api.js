@@ -27,7 +27,7 @@ async function request(path, options = {}) {
 
 /* ── Health ─────────────────────────────────────────── */
 export const healthApi = {
-  get: () => fetch('/health').then(r => r.json()),
+  get: () => request('/health'),
   chatHealth: () => request('/chat/health'),
 };
 
