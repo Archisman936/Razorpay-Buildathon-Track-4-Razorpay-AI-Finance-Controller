@@ -1,0 +1,5 @@
+model,feature_count,validation_accuracy,validation_precision,validation_recall,validation_f1,validation_macro_f1,validation_pr_auc,validation_roc_auc,validation_threshold
+Logistic Regression,35,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.275
+XGBoost,35,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.01
+LightGBM,35,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.01
+Random Forest,35,1.0,1.0,1.0,1.0,1.0,0.9999999999999999,1.0,0.08

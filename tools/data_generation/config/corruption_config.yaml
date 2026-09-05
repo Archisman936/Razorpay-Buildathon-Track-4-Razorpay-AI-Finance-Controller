@@ -1,0 +1,86 @@
+# Corruption configuration
+# Controls how clean data is transformed into noisy/realistic source data
+
+corruption:
+  # Global seed for reproducibility
+  seed: 42
+
+  # ID noise - format variations
+  id_noise:
+    enabled: true
+    rate: 0.15              # 15% of records get ID format changes
+    strategies:
+      - DASH_SEPARATOR       # ORD-000123
+      - NO_SEPARATOR         # ORD000123
+      - SLASH_SEPARATOR      # ORD/000123
+      - LOWERCASE            # ord_000123
+      - PREFIX_VARIATION     # ORDER_000123, SETTLEMENT_000001
+
+  # Description noise - bank narration variations
+  description_noise:
+    enabled: true
+    rate: 0.30              # 30% of bank descriptions get variations
+    templates:
+      - "RAZORPAY SETTLEMENT {id}"
+      - "RZP {id}"
+      - "NEFT RZP {id}"
+      - "RZP PAYOUT {id}"
+      - "RAZORPAY/{id}"
+      - "NEFT-{id}-RAZORPAY"
+      - "IMPS RZP {id}"
+      - "RTGS RAZORPAY {id}"
+
+  # Date noise - shift dates by small amounts
+  date_noise:
+    enabled: true
+    rate: 0.20              # 20% of records get date shifts
+    min_shift_days: 1
+    max_shift_days: 3
+    direction: FORWARD       # FORWARD, BACKWARD, BOTH
+
+  # Amount discrepancies
+  amount_noise:
+    enabled: true
+    rate: 0.08              # 8% of records get amount differences
+    causes:
+      FEE_ADJUSTMENT:
+        probability: 0.30
+        max_diff_pct: 0.02   # Up to 2% difference
+      PARTIAL_SETTLEMENT:
+        probability: 0.25
+        max_diff_pct: 0.10
+      TAX_MISMATCH:
+        probability: 0.20
+        max_diff_pct: 0.01
+      ROUNDING:
+        probability: 0.15
+        max_diff_amount: 1.00  # Up to ₹1 rounding
+      UNKNOWN:
+        probability: 0.10
+        max_diff_pct: 0.05
+
+  # Missing records
+  missing_records:
+    enabled: true
+    rates:
+      bank_records: 0.05     # 5% of bank records missing
+      books: 0.03            # 3% of book entries missing
+      invoices: 0.02         # 2% of invoices missing
+      gst_records: 0.04      # 4% of GST records missing
+
+  # Duplicate records
+  duplicates:
+    enabled: true
+    rate: 0.03              # 3% of records get duplicated
+    targets:
+      - bank_records
+      - payments
+      - books
+
+  # Wrong references
+  wrong_references:
+    enabled: true
+    rate: 0.05              # 5% of cross-references point to wrong entity
+    targets:
+      - bank_records         # Bank narration references wrong settlement
+      - books                # Book entry references wrong event

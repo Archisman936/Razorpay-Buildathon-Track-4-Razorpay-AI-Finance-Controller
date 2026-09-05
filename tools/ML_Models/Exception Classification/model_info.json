@@ -1,0 +1,6 @@
+{
+  "model": "Logistic Regression",
+  "feature_count": 19,
+  "n_classes": 7,
+  "task": "exception_classification"
+}

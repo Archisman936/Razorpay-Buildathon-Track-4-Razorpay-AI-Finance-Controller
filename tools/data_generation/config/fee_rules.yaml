@@ -1,0 +1,40 @@
+# Fee rules by payment method
+# Applied to payment amount to calculate gateway fees
+
+fee_rules:
+  UPI:
+    base_rate: 0.0000      # 0% MDR (RBI mandate)
+    min_fee: 0.00
+    max_fee: 0.00
+    tax_rate: 0.18          # GST on fee (18%)
+
+  CARD:
+    base_rate: 0.0180       # 1.80%
+    min_fee: 2.00           # Minimum ₹2
+    max_fee: 5000.00        # Cap at ₹5000
+    tax_rate: 0.18
+
+  NETBANKING:
+    base_rate: 0.0150       # 1.50%
+    min_fee: 5.00
+    max_fee: 3000.00
+    tax_rate: 0.18
+
+  WALLET:
+    base_rate: 0.0200       # 2.00%
+    min_fee: 1.00
+    max_fee: 2000.00
+    tax_rate: 0.18
+
+# Fee types that can be generated
+fee_types:
+  - PLATFORM_FEE
+  - PROCESSING_FEE
+  - GATEWAY_FEE
+
+# Payment method distribution (probability weights)
+payment_method_distribution:
+  UPI: 0.45
+  CARD: 0.30
+  NETBANKING: 0.15
+  WALLET: 0.10

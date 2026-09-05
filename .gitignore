@@ -1,0 +1,60 @@
+# ==============================================================================
+# Git Ignore Configuration
+# Razorpay AI Finance Controller
+# ==============================================================================
+
+# Environment & Secrets (NEVER commit secrets or API keys)
+.env
+.env.*
+!.env.example
+*.secret
+*.pem
+*.key
+
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.Python
+.venv/
+.venv*/
+venv/
+ENV/
+env/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Frontend / Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime Vector Database & Temporary Data
+data/rag_vector_db/
+data/uploads/
+
+# Backups & Scratch Scripts
+backups/
+scratch/
+*.log
+*.tmp
+scripts/*.txt
+
+# Operating System & IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo

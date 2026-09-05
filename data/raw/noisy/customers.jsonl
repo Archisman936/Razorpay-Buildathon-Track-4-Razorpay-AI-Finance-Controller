@@ -1,0 +1,500 @@
+{"customer_id": "CUS_000001", "merchant_id": "MER_000001", "name": "Akshay Malhotra", "email": "akshay.malhotra143@protonmail.com", "phone": "+916826600539", "city": "Coimbatore", "state": "Tamil Nadu"}
+{"customer_id": "CUS_000002", "merchant_id": "MER_000005", "name": "Chandan Saxena", "email": "chandan.saxena96@yahoo.com", "phone": "+917642621108", "city": "Mumbai", "state": "Maharashtra"}
+{"customer_id": "CUS_000003", "merchant_id": "MER_000005", "name": "Akshay Yadav", "email": "akshay.yadav430@yahoo.com", "phone": "+919732719211", "city": "Tiruchirappalli", "state": "Tamil Nadu"}
+{"customer_id": "CUS_000004", "merchant_id": "MER_000003", "name": "Aarav Gupta", "email": "aarav.gupta285@yahoo.com", "phone": "+917919795579", "city": "Udaipur", "state": "Rajasthan"}
+{"customer_id": "CUS_000005", "merchant_id": "MER_000003", "name": "Devi Das", "email": "devi.das368@outlook.com", "phone": "+918966647391", "city": "Jaipur", "state": "Rajasthan"}
+{"customer_id": "CUS_000006", "merchant_id": "MER_000001", "name": "Varun Verma", "email": "varun.verma81@rediffmail.com", "phone": "+918990566476", "city": "Mangalore", "state": "Karnataka"}
+{"customer_id": "CUS_000007", "merchant_id": "MER_000005", "name": "Shivani Jain", "email": "shivani.jain678@yahoo.com", "phone": "+918185675980", "city": "Bangalore", "state": "Karnataka"}
+{"customer_id": "CUS_000008", "merchant_id": "MER_000002", "name": "Deepak Pillai", "email": "deepak.pillai651@outlook.com", "phone": "+917497478786", "city": "Rajkot", "state": "Gujarat"}
+{"customer_id": "CUS_000009", "merchant_id": "MER_000003", "name": "Meera Malhotra", "email": "meera.malhotra651@yahoo.com", "phone": "+917275452091", "city": "Belgaum", "state": "Karnataka"}
+{"customer_id": "CUS_000010", "merchant_id": "MER_000004", "name": "Siddharth Malhotra", "email": "siddharth.malhotra702@outlook.com", "phone": "+916345938494", "city": "Warangal", "state": "Telangana"}
+{"customer_id": "CUS_000011", "merchant_id": "MER_000001", "name": "Rohit Rao", "email": "rohit.rao217@rediffmail.com", "phone": "+918328306011", "city": "Ahmedabad", "state": "Gujarat"}
+{"customer_id": "CUS_000012", "merchant_id": "MER_000004", "name": "Sneha Singh", "email": "sneha.singh143@yahoo.com", "phone": "+918902099969", "city": "Rohini", "state": "Delhi"}
+{"customer_id": "CUS_000013", "merchant_id": "MER_000005", "name": "Suresh Rao", "email": "suresh.rao142@rediffmail.com", "phone": "+919197613238", "city": "Noida", "state": "Uttar Pradesh"}
+{"customer_id": "CUS_000014", "merchant_id": "MER_000001", "name": "Dhruv Goyal", "email": "dhruv.goyal611@gmail.com", "phone": "+919509760584", "city": "Saket", "state": "Delhi"}
+{"customer_id": "CUS_000015", "merchant_id": "MER_000005", "name": "Vijay Tiwari", "email": "vijay.tiwari882@gmail.com", "phone": "+916831980933", "city": "Gandhinagar", "state": "Gujarat"}
+{"customer_id": "CUS_000016", "merchant_id": "MER_000005", "name": "Priya Nair", "email": "priya.nair446@yahoo.com", "phone": "+919103484630", "city": "Hubli", "state": "Karnataka"}
+{"customer_id": "CUS_000017", "merchant_id": "MER_000003", "name": "Kavita Thakur", "email": "kavita.thakur862@protonmail.com", "phone": "+917264109919", "city": "Hubli", "state": "Karnataka"}
+{"customer_id": "CUS_000018", "merchant_id": "MER_000003", "name": "Jaya Verma", "email": "jaya.verma614@outlook.com", "phone": "+919120912992", "city": "Hyderabad", "state": "Telangana"}
+{"customer_id": "CUS_000019", "merchant_id": "MER_000001", "name": "Shivani Mishra", "email": "shivani.mishra247@rediffmail.com", "phone": "+916191969690", "city": "Chennai", "state": "Tamil Nadu"}
+{"customer_id": "CUS_000020", "merchant_id": "MER_000004", "name": "Arjun Verma", "email": "arjun.verma676@hotmail.com", "phone": "+917384602384", "city": "Dwarka", "state": "Delhi"}
+{"customer_id": "CUS_000021", "merchant_id": "MER_000005", "name": "Suresh Joshi", "email": "suresh.joshi731@outlook.com", "phone": "+919821218382", "city": "Warangal", "state": "Telangana"}
+{"customer_id": "CUS_000022", "merchant_id": "MER_000003", "name": "Tanvi Tiwari", "email": "tanvi.tiwari254@yahoo.com", "phone": "+916463016614", "city": "Kolkata", "state": "West Bengal"}
+{"customer_id": "CUS_000023", "merchant_id": "MER_000001", "name": "Neha Kapoor", "email": "neha.kapoor725@protonmail.com", "phone": "+916345824373", "city": "Mumbai", "state": "Maharashtra"}
+{"customer_id": "CUS_000024", "merchant_id": "MER_000001", "name": "Amit Nair", "email": "amit.nair244@outlook.com", "phone": "+919330035022", "city": "Belgaum", "state": "Karnataka"}
+{"customer_id": "CUS_000025", "merchant_id": "MER_000005", "name": "Gaurav Sinha", "email": "gaurav.sinha827@hotmail.com", "phone": "+917201281557", "city": "Salem", "state": "Tamil Nadu"}
+{"customer_id": "CUS_000026", "merchant_id": "MER_000001", "name": "Swati Patel", "email": "swati.patel479@protonmail.com", "phone": "+916823019672", "city": "Kota", "state": "Rajasthan"}
+{"customer_id": "CUS_000027", "merchant_id": "MER_000001", "name": "Anjali Rao", "email": "anjali.rao255@yahoo.com", "phone": "+917675832441", "city": "Lucknow", "state": "Uttar Pradesh"}
+{"customer_id": "CUS_000028", "merchant_id": "MER_000004", "name": "Geeta Saxena", "email": "geeta.saxena474@yahoo.com", "phone": "+916575808013", "city": "Rohini", "state": "Delhi"}
+{"customer_id": "CUS_000029", "merchant_id": "MER_000005", "name": "Deepak Chauhan", "email": "deepak.chauhan993@gmail.com", "phone": "+917278575192", "city": "Hyderabad", "state": "Telangana"}
+{"customer_id": "CUS_000030", "merchant_id": "MER_000004", "name": "Vivek Sinha", "email": "vivek.sinha925@gmail.com", "phone": "+917506919288", "city": "Salem", "state": "Tamil Nadu"}
+{"customer_id": "CUS_000031", "merchant_id": "MER_000001", "name": "Simran Kumar", "email": "simran.kumar434@protonmail.com", "phone": "+919266211829", "city": "Durgapur", "state": "West Bengal"}
+{"customer_id": "CUS_000032", "merchant_id": "MER_000002", "name": "Rajesh Joshi", "email": "rajesh.joshi754@rediffmail.com", "phone": "+916903132646", "city": "Nashik", "state": "Maharashtra"}
+{"customer_id": "CUS_000033", "merchant_id": "MER_000003", "name": "Anjali Chauhan", "email": "anjali.chauhan515@rediffmail.com", "phone": "+917161073976", "city": "Thrissur", "state": "Kerala"}
+{"customer_id": "CUS_000034", "merchant_id": "MER_000005", "name": "Bharti Iyer", "email": "bharti.iyer70@protonmail.com", "phone": "+917533550699", "city": "Belgaum", "state": "Karnataka"}
+{"customer_id": "CUS_000035", "merchant_id": "MER_000001", "name": "Nisha Bhatia", "email": "nisha.bhatia430@protonmail.com", "phone": "+918379995032", "city": "Kochi", "state": "Kerala"}
+{"customer_id": "CUS_000036", "merchant_id": "MER_000002", "name": "Rohit Khan", "email": "rohit.khan135@protonmail.com", "phone": "+918590941149", "city": "Rajkot", "state": "Gujarat"}
+{"customer_id": "CUS_000037", "merchant_id": "MER_000003", "name": "Arun Agarwal", "email": "arun.agarwal577@gmail.com", "phone": "+916677280546", "city": "Asansol", "state": "West Bengal"}
+{"customer_id": "CUS_000038", "merchant_id": "MER_000002", "name": "Pradeep Garg", "email": "pradeep.garg901@yahoo.com", "phone": "+918406002884", "city": "Lucknow", "state": "Uttar Pradesh"}
+{"customer_id": "CUS_000039", "merchant_id": "MER_000002", "name": "Tanvi Verma", "email": "tanvi.verma827@protonmail.com", "phone": "+916817112652", "city": "Gandhinagar", "state": "Gujarat"}
+{"customer_id": "CUS_000040", "merchant_id": "MER_000005", "name": "Rakesh Deshmukh", "email": "rakesh.deshmukh119@gmail.com", "phone": "+917392431670", "city": "Rohini", "state": "Delhi"}
+{"customer_id": "CUS_000041", "merchant_id": "MER_000003", "name": "Meera Nair", "email": "meera.nair518@hotmail.com", "phone": "+918154544899", "city": "Madurai", "state": "Tamil Nadu"}
+{"customer_id": "CUS_000042", "merchant_id": "MER_000001", "name": "Suresh Malhotra", "email": "suresh.malhotra342@yahoo.com", "phone": "+918273497327", "city": "Mumbai", "state": "Maharashtra"}
+{"customer_id": "CUS_000043", "merchant_id": "MER_000004", "name": "Suresh Yadav", "email": "suresh.yadav78@protonmail.com", "phone": "+917685823118", "city": "Mumbai", "state": "Maharashtra"}
+{"customer_id": "CUS_000044", "merchant_id": "MER_000001", "name": "Shruti Yadav", "email": "shruti.yadav131@gmail.com", "phone": "+918491541578", "city": "Saket", "state": "Delhi"}
+{"customer_id": "CUS_000045", "merchant_id": "MER_000001", "name": "Seema Joshi", "email": "seema.joshi363@rediffmail.com", "phone": "+919766430218", "city": "Chennai", "state": "Tamil Nadu"}
+{"customer_id": "CUS_000046", "merchant_id": "MER_000002", "name": "Nikhil Gupta", "email": "nikhil.gupta26@yahoo.com", "phone": "+918940081098", "city": "Saket", "state": "Delhi"}
+{"customer_id": "CUS_000047", "merchant_id": "MER_000004", "name": "Nisha Malhotra", "email": "nisha.malhotra392@gmail.com", "phone": "+919338836384", "city": "New Delhi", "state": "Delhi"}
+{"customer_id": "CUS_000048", "merchant_id": "MER_000002", "name": "Varun Patel", "email": "varun.patel229@gmail.com", "phone": "+917527849588", "city": "Surat", "state": "Gujarat"}
+{"customer_id": "CUS_000049", "merchant_id": "MER_000003", "name": "Rahul Chopra", "email": "rahul.chopra657@rediffmail.com", "phone": "+919829627019", "city": "Vadodara", "state": "Gujarat"}
+{"customer_id": "CUS_000050", "merchant_id": "MER_000005", "name": "Sandeep Bansal", "email": "sandeep.bansal183@rediffmail.com", "phone": "+918141078352", "city": "Hubli", "state": "Karnataka"}
+{"customer_id": "CUS_000051", "merchant_id": "MER_000001", "name": "Swati Patel", "email": "swati.patel621@rediffmail.com", "phone": "+916513600440", "city": "Agra", "state": "Uttar Pradesh"}
+{"customer_id": "CUS_000052", "merchant_id": "MER_000005", "name": "Lakshmi Kumar", "email": "lakshmi.kumar2@rediffmail.com", "phone": "+917491079829", "city": "Thane", "state": "Maharashtra"}
+{"customer_id": "CUS_000053", "merchant_id": "MER_000004", "name": "Arjun Nair", "email": "arjun.nair680@gmail.com", "phone": "+918644518647", "city": "Kozhikode", "state": "Kerala"}
+{"customer_id": "CUS_000054", "merchant_id": "MER_000003", "name": "Sunil Mukherjee", "email": "sunil.mukherjee568@yahoo.com", "phone": "+917551450815", "city": "Udaipur", "state": "Rajasthan"}
+{"customer_id": "CUS_000055", "merchant_id": "MER_000004", "name": "Kavita Mishra", "email": "kavita.mishra854@gmail.com", "phone": "+918408071259", "city": "Ajmer", "state": "Rajasthan"}
+{"customer_id": "CUS_000056", "merchant_id": "MER_000002", "name": "Swati Mukherjee", "email": "swati.mukherjee453@protonmail.com", "phone": "+917648868899", "city": "Siliguri", "state": "West Bengal"}
+{"customer_id": "CUS_000057", "merchant_id": "MER_000004", "name": "Karan Das", "email": "karan.das680@protonmail.com", "phone": "+918200273738", "city": "Gandhinagar", "state": "Gujarat"}
+{"customer_id": "CUS_000058", "merchant_id": "MER_000002", "name": "Ravi Kapoor", "email": "ravi.kapoor26@gmail.com", "phone": "+917610173760", "city": "Coimbatore", "state": "Tamil Nadu"}
+{"customer_id": "CUS_000059", "merchant_id": "MER_000005", "name": "Arun Singh", "email": "arun.singh200@protonmail.com", "phone": "+919630833445", "city": "Ajmer", "state": "Rajasthan"}
+{"customer_id": "CUS_000060", "merchant_id": "MER_000004", "name": "Nisha Goyal", "email": "nisha.goyal798@hotmail.com", "phone": "+917288856883", "city": "Mumbai", "state": "Maharashtra"}
+{"customer_id": "CUS_000061", "merchant_id": "MER_000005", "name": "Vijay Chauhan", "email": "vijay.chauhan940@gmail.com", "phone": "+919243171768", "city": "Warangal", "state": "Telangana"}
+{"customer_id": "CUS_000062", "merchant_id": "MER_000004", "name": "Rohit Sharma", "email": "rohit.sharma851@rediffmail.com", "phone": "+919270894498", "city": "Thrissur", "state": "Kerala"}
+{"customer_id": "CUS_000063", "merchant_id": "MER_000004", "name": "Usha Kumar", "email": "usha.kumar785@rediffmail.com", "phone": "+919772966010", "city": "Madurai", "state": "Tamil Nadu"}
+{"customer_id": "CUS_000064", "merchant_id": "MER_000002", "name": "Rahul Sharma", "email": "rahul.sharma241@outlook.com", "phone": "+918443285529", "city": "Hubli", "state": "Karnataka"}
+{"customer_id": "CUS_000065", "merchant_id": "MER_000005", "name": "Bharti Garg", "email": "bharti.garg393@protonmail.com", "phone": "+917858511779", "city": "Dwarka", "state": "Delhi"}
+{"customer_id": "CUS_000066", "merchant_id": "MER_000002", "name": "Arjun Reddy", "email": "arjun.reddy556@hotmail.com", "phone": "+919166857303", "city": "Udaipur", "state": "Rajasthan"}
+{"customer_id": "CUS_000067", "merchant_id": "MER_000002", "name": "Sunita Pillai", "email": "sunita.pillai878@rediffmail.com", "phone": "+919612153089", "city": "Kochi", "state": "Kerala"}
+{"customer_id": "CUS_000068", "merchant_id": "MER_000001", "name": "Seema Mishra", "email": "seema.mishra552@protonmail.com", "phone": "+917624232414", "city": "Kota", "state": "Rajasthan"}
+{"customer_id": "CUS_000069", "merchant_id": "MER_000002", "name": "Priya Saxena", "email": "priya.saxena399@outlook.com", "phone": "+919877583839", "city": "Kolkata", "state": "West Bengal"}
+{"customer_id": "CUS_000070", "merchant_id": "MER_000002", "name": "Vijay Garg", "email": "vijay.garg929@hotmail.com", "phone": "+916190137896", "city": "Kochi", "state": "Kerala"}
+{"customer_id": "CUS_000071", "merchant_id": "MER_000004", "name": "Geeta Singh", "email": "geeta.singh267@hotmail.com", "phone": "+918327268503", "city": "New Delhi", "state": "Delhi"}
+{"customer_id": "CUS_000072", "merchant_id": "MER_000004", "name": "Sachin Nair", "email": "sachin.nair771@hotmail.com", "phone": "+918996478772", "city": "Udaipur", "state": "Rajasthan"}
+{"customer_id": "CUS_000073", "merchant_id": "MER_000001", "name": "Vikram Bansal", "email": "vikram.bansal975@outlook.com", "phone": "+917798086909", "city": "Hyderabad", "state": "Telangana"}
+{"customer_id": "CUS_000074", "merchant_id": "MER_000001", "name": "Ananya Bansal", "email": "ananya.bansal860@gmail.com", "phone": "+917356135680", "city": "Coimbatore", "state": "Tamil Nadu"}
+{"customer_id": "CUS_000075", "merchant_id": "MER_000002", "name": "Vikram Dutta", "email": "vikram.dutta477@protonmail.com", "phone": "+918923450567", "city": "Thiruvananthapuram", "state": "Kerala"}
+{"customer_id": "CUS_000076", "merchant_id": "MER_000003", "name": "Karan Dutta", "email": "karan.dutta111@rediffmail.com", "phone": "+916434961542", "city": "Rohini", "state": "Delhi"}
+{"customer_id": "CUS_000077", "merchant_id": "MER_000005", "name": "Siddharth Rao", "email": "siddharth.rao607@protonmail.com", "phone": "+917209415691", "city": "Chennai", "state": "Tamil Nadu"}
+{"customer_id": "CUS_000078", "merchant_id": "MER_000003", "name": "Divya Bhatia", "email": "divya.bhatia439@protonmail.com", "phone": "+918174041730", "city": "Varanasi", "state": "Uttar Pradesh"}
+{"customer_id": "CUS_000079", "merchant_id": "MER_000005", "name": "Sanjay Agarwal", "email": "sanjay.agarwal109@hotmail.com", "phone": "+918782454310", "city": "Kota", "state": "Rajasthan"}
+{"customer_id": "CUS_000080", "merchant_id": "MER_000004", "name": "Isha Saxena", "email": "isha.saxena989@protonmail.com", "phone": "+918761330848", "city": "Janakpuri", "state": "Delhi"}
+{"customer_id": "CUS_000081", "merchant_id": "MER_000005", "name": "Vinod Singh", "email": "vinod.singh275@outlook.com", "phone": "+917991990632", "city": "Ajmer", "state": "Rajasthan"}
+{"customer_id": "CUS_000082", "merchant_id": "MER_000001", "name": "Rahul Sharma", "email": "rahul.sharma584@rediffmail.com", "phone": "+919461203124", "city": "Salem", "state": "Tamil Nadu"}
+{"customer_id": "CUS_000083", "merchant_id": "MER_000001", "name": "Yash Mukherjee", "email": "yash.mukherjee218@outlook.com", "phone": "+918465436049", "city": "Saket", "state": "Delhi"}
+{"customer_id": "CUS_000084", "merchant_id": "MER_000003", "name": "Rahul Yadav", "email": "rahul.yadav971@yahoo.com", "phone": "+916359154084", "city": "Nashik", "state": "Maharashtra"}
+{"customer_id": "CUS_000085", "merchant_id": "MER_000004", "name": "Vivek Yadav", "email": "vivek.yadav662@protonmail.com", "phone": "+919581223755", "city": "Salem", "state": "Tamil Nadu"}
+{"customer_id": "CUS_000086", "merchant_id": "MER_000001", "name": "Chandan Mehta", "email": "chandan.mehta709@yahoo.com", "phone": "+918812921644", "city": "Salem", "state": "Tamil Nadu"}
+{"customer_id": "CUS_000087", "merchant_id": "MER_000005", "name": "Shruti Sinha", "email": "shruti.sinha436@protonmail.com", "phone": "+918477753674", "city": "Nizamabad", "state": "Telangana"}
+{"customer_id": "CUS_000088", "merchant_id": "MER_000004", "name": "Priya Mishra", "email": "priya.mishra124@protonmail.com", "phone": "+917438817025", "city": "Surat", "state": "Gujarat"}
+{"customer_id": "CUS_000089", "merchant_id": "MER_000001", "name": "Krishna Jain", "email": "krishna.jain284@protonmail.com", "phone": "+918207939087", "city": "Salem", "state": "Tamil Nadu"}
+{"customer_id": "CUS_000090", "merchant_id": "MER_000002", "name": "Rajesh Kapoor", "email": "rajesh.kapoor310@gmail.com", "phone": "+917394539550", "city": "Noida", "state": "Uttar Pradesh"}
+{"customer_id": "CUS_000091", "merchant_id": "MER_000001", "name": "Anita Yadav", "email": "anita.yadav654@hotmail.com", "phone": "+916113169872", "city": "Surat", "state": "Gujarat"}
+{"customer_id": "CUS_000092", "merchant_id": "MER_000005", "name": "Raj Sinha", "email": "raj.sinha349@yahoo.com", "phone": "+916371096600", "city": "Siliguri", "state": "West Bengal"}
+{"customer_id": "CUS_000093", "merchant_id": "MER_000004", "name": "Dhruv Chopra", "email": "dhruv.chopra76@rediffmail.com", "phone": "+916262915636", "city": "Kota", "state": "Rajasthan"}
+{"customer_id": "CUS_000094", "merchant_id": "MER_000002", "name": "Rakesh Das", "email": "rakesh.das572@hotmail.com", "phone": "+917932894596", "city": "Chennai", "state": "Tamil Nadu"}
+{"customer_id": "CUS_000095", "merchant_id": "MER_000005", "name": "Siddharth Sharma", "email": "siddharth.sharma881@rediffmail.com", "phone": "+919427899537", "city": "Durgapur", "state": "West Bengal"}
+{"customer_id": "CUS_000096", "merchant_id": "MER_000005", "name": "Anjali Deshmukh", "email": "anjali.deshmukh271@protonmail.com", "phone": "+916268638768", "city": "Coimbatore", "state": "Tamil Nadu"}
+{"customer_id": "CUS_000097", "merchant_id": "MER_000002", "name": "Kavita Yadav", "email": "kavita.yadav3@hotmail.com", "phone": "+919840206617", "city": "Mysore", "state": "Karnataka"}
+{"customer_id": "CUS_000098", "merchant_id": "MER_000005", "name": "Vikram Mehta", "email": "vikram.mehta296@protonmail.com", "phone": "+918854827139", "city": "Pune", "state": "Maharashtra"}
+{"customer_id": "CUS_000099", "merchant_id": "MER_000004", "name": "Arun Kapoor", "email": "arun.kapoor678@yahoo.com", "phone": "+919223240112", "city": "Gandhinagar", "state": "Gujarat"}
+{"customer_id": "CUS_000100", "merchant_id": "MER_000005", "name": "Nandini Goyal", "email": "nandini.goyal74@gmail.com", "phone": "+917951078441", "city": "Surat", "state": "Gujarat"}
+{"customer_id": "CUS_000101", "merchant_id": "MER_000003", "name": "Raj Sharma", "email": "raj.sharma706@outlook.com", "phone": "+919392322121", "city": "Mangalore", "state": "Karnataka"}
+{"customer_id": "CUS_000102", "merchant_id": "MER_000005", "name": "Yash Sharma", "email": "yash.sharma41@hotmail.com", "phone": "+918748232591", "city": "Belgaum", "state": "Karnataka"}
+{"customer_id": "CUS_000103", "merchant_id": "MER_000003", "name": "Akshay Das", "email": "akshay.das602@gmail.com", "phone": "+918718740490", "city": "Tiruchirappalli", "state": "Tamil Nadu"}
+{"customer_id": "CUS_000104", "merchant_id": "MER_000001", "name": "Kavita Sinha", "email": "kavita.sinha939@outlook.com", "phone": "+917728492896", "city": "Karimnagar", "state": "Telangana"}
+{"customer_id": "CUS_000105", "merchant_id": "MER_000004", "name": "Vivek Das", "email": "vivek.das419@outlook.com", "phone": "+918819550381", "city": "Durgapur", "state": "West Bengal"}
+{"customer_id": "CUS_000106", "merchant_id": "MER_000001", "name": "Jaya Nair", "email": "jaya.nair296@protonmail.com", "phone": "+919973559879", "city": "Kota", "state": "Rajasthan"}
+{"customer_id": "CUS_000107", "merchant_id": "MER_000005", "name": "Amit Singh", "email": "amit.singh259@outlook.com", "phone": "+916929517022", "city": "Hubli", "state": "Karnataka"}
+{"customer_id": "CUS_000108", "merchant_id": "MER_000004", "name": "Aarav Verma", "email": "aarav.verma56@yahoo.com", "phone": "+918768548027", "city": "Siliguri", "state": "West Bengal"}
+{"customer_id": "CUS_000109", "merchant_id": "MER_000004", "name": "Tanvi Chauhan", "email": "tanvi.chauhan563@yahoo.com", "phone": "+918570423569", "city": "Madurai", "state": "Tamil Nadu"}
+{"customer_id": "CUS_000110", "merchant_id": "MER_000004", "name": "Divya Bansal", "email": "divya.bansal727@yahoo.com", "phone": "+918691458887", "city": "Thiruvananthapuram", "state": "Kerala"}
+{"customer_id": "CUS_000111", "merchant_id": "MER_000001", "name": "Sunil Das", "email": "sunil.das473@gmail.com", "phone": "+917635126623", "city": "Chennai", "state": "Tamil Nadu"}
+{"customer_id": "CUS_000112", "merchant_id": "MER_000003", "name": "Priya Reddy", "email": "priya.reddy250@hotmail.com", "phone": "+917511872350", "city": "Siliguri", "state": "West Bengal"}
+{"customer_id": "CUS_000113", "merchant_id": "MER_000002", "name": "Geeta Chopra", "email": "geeta.chopra349@rediffmail.com", "phone": "+918981058292", "city": "Rajkot", "state": "Gujarat"}
+{"customer_id": "CUS_000114", "merchant_id": "MER_000001", "name": "Raj Mishra", "email": "raj.mishra887@yahoo.com", "phone": "+919678296492", "city": "Thrissur", "state": "Kerala"}
+{"customer_id": "CUS_000115", "merchant_id": "MER_000004", "name": "Sapna Nair", "email": "sapna.nair467@outlook.com", "phone": "+917848933239", "city": "Karimnagar", "state": "Telangana"}
+{"customer_id": "CUS_000116", "merchant_id": "MER_000002", "name": "Simran Kapoor", "email": "simran.kapoor326@protonmail.com", "phone": "+919857232668", "city": "Jaipur", "state": "Rajasthan"}
+{"customer_id": "CUS_000117", "merchant_id": "MER_000004", "name": "Simran Goyal", "email": "simran.goyal130@rediffmail.com", "phone": "+918207765664", "city": "Kolkata", "state": "West Bengal"}
+{"customer_id": "CUS_000118", "merchant_id": "MER_000004", "name": "Deepak Tiwari", "email": "deepak.tiwari740@yahoo.com", "phone": "+919803066091", "city": "Kolkata", "state": "West Bengal"}
+{"customer_id": "CUS_000119", "merchant_id": "MER_000002", "name": "Arun Sinha", "email": "arun.sinha639@protonmail.com", "phone": "+919797756796", "city": "Vadodara", "state": "Gujarat"}
+{"customer_id": "CUS_000120", "merchant_id": "MER_000001", "name": "Sandeep Verma", "email": "sandeep.verma642@protonmail.com", "phone": "+919680911523", "city": "Udaipur", "state": "Rajasthan"}
+{"customer_id": "CUS_000121", "merchant_id": "MER_000001", "name": "Arjun Khan", "email": "arjun.khan765@gmail.com", "phone": "+919205702499", "city": "Surat", "state": "Gujarat"}
+{"customer_id": "CUS_000122", "merchant_id": "MER_000001", "name": "Tanvi Gupta", "email": "tanvi.gupta48@outlook.com", "phone": "+916415001254", "city": "Ahmedabad", "state": "Gujarat"}
+{"customer_id": "CUS_000123", "merchant_id": "MER_000003", "name": "Shruti Saxena", "email": "shruti.saxena544@hotmail.com", "phone": "+917282518553", "city": "Dwarka", "state": "Delhi"}
+{"customer_id": "CUS_000124", "merchant_id": "MER_000002", "name": "Bharti Pillai", "email": "bharti.pillai510@rediffmail.com", "phone": "+917349310440", "city": "Thiruvananthapuram", "state": "Kerala"}
+{"customer_id": "CUS_000125", "merchant_id": "MER_000004", "name": "Pooja Singh", "email": "pooja.singh921@hotmail.com", "phone": "+918827579147", "city": "Ahmedabad", "state": "Gujarat"}
+{"customer_id": "CUS_000126", "merchant_id": "MER_000005", "name": "Jaya Chopra", "email": "jaya.chopra602@outlook.com", "phone": "+919841218491", "city": "Durgapur", "state": "West Bengal"}
+{"customer_id": "CUS_000127", "merchant_id": "MER_000003", "name": "Varun Mishra", "email": "varun.mishra874@hotmail.com", "phone": "+916354697684", "city": "Salem", "state": "Tamil Nadu"}
+{"customer_id": "CUS_000128", "merchant_id": "MER_000004", "name": "Seema Mehta", "email": "seema.mehta850@protonmail.com", "phone": "+919394721069", "city": "Ahmedabad", "state": "Gujarat"}
+{"customer_id": "CUS_000129", "merchant_id": "MER_000001", "name": "Anita Srivastava", "email": "anita.srivastava622@outlook.com", "phone": "+917783563240", "city": "Surat", "state": "Gujarat"}
+{"customer_id": "CUS_000130", "merchant_id": "MER_000002", "name": "Pooja Garg", "email": "pooja.garg317@hotmail.com", "phone": "+916722312633", "city": "Bangalore", "state": "Karnataka"}
+{"customer_id": "CUS_000131", "merchant_id": "MER_000003", "name": "Gaurav Das", "email": "gaurav.das766@hotmail.com", "phone": "+917315601773", "city": "Vadodara", "state": "Gujarat"}
+{"customer_id": "CUS_000132", "merchant_id": "MER_000002", "name": "Shivani Tiwari", "email": "shivani.tiwari851@yahoo.com", "phone": "+918985503942", "city": "Nizamabad", "state": "Telangana"}
+{"customer_id": "CUS_000133", "merchant_id": "MER_000004", "name": "Rajesh Nair", "email": "rajesh.nair987@gmail.com", "phone": "+917909763993", "city": "Mangalore", "state": "Karnataka"}
+{"customer_id": "CUS_000134", "merchant_id": "MER_000002", "name": "Sneha Yadav", "email": "sneha.yadav810@hotmail.com", "phone": "+916383960237", "city": "Lucknow", "state": "Uttar Pradesh"}
+{"customer_id": "CUS_000135", "merchant_id": "MER_000005", "name": "Divya Singh", "email": "divya.singh599@hotmail.com", "phone": "+918216335741", "city": "Kanpur", "state": "Uttar Pradesh"}
+{"customer_id": "CUS_000136", "merchant_id": "MER_000002", "name": "Vikram Bansal", "email": "vikram.bansal938@rediffmail.com", "phone": "+917795411453", "city": "Kozhikode", "state": "Kerala"}
+{"customer_id": "CUS_000137", "merchant_id": "MER_000001", "name": "Vijay Mishra", "email": "vijay.mishra144@gmail.com", "phone": "+916426808977", "city": "Jaipur", "state": "Rajasthan"}
+{"customer_id": "CUS_000138", "merchant_id": "MER_000004", "name": "Dhruv Deshmukh", "email": "dhruv.deshmukh139@hotmail.com", "phone": "+919498370582", "city": "Tiruchirappalli", "state": "Tamil Nadu"}
+{"customer_id": "CUS_000139", "merchant_id": "MER_000005", "name": "Sunita Goyal", "email": "sunita.goyal854@hotmail.com", "phone": "+919400368694", "city": "Jaipur", "state": "Rajasthan"}
+{"customer_id": "CUS_000140", "merchant_id": "MER_000001", "name": "Shruti Joshi", "email": "shruti.joshi974@yahoo.com", "phone": "+918206681214", "city": "Siliguri", "state": "West Bengal"}
+{"customer_id": "CUS_000141", "merchant_id": "MER_000003", "name": "Seema Chauhan", "email": "seema.chauhan195@gmail.com", "phone": "+919198433586", "city": "Udaipur", "state": "Rajasthan"}
+{"customer_id": "CUS_000142", "merchant_id": "MER_000002", "name": "Aditya Chauhan", "email": "aditya.chauhan129@rediffmail.com", "phone": "+917173669588", "city": "Noida", "state": "Uttar Pradesh"}
+{"customer_id": "CUS_000143", "merchant_id": "MER_000005", "name": "Meera Joshi", "email": "meera.joshi793@yahoo.com", "phone": "+916397721596", "city": "Madurai", "state": "Tamil Nadu"}
+{"customer_id": "CUS_000144", "merchant_id": "MER_000002", "name": "Gaurav Verma", "email": "gaurav.verma113@protonmail.com", "phone": "+916241522640", "city": "Surat", "state": "Gujarat"}
+{"customer_id": "CUS_000145", "merchant_id": "MER_000001", "name": "Seema Khan", "email": "seema.khan17@yahoo.com", "phone": "+918156263020", "city": "Kozhikode", "state": "Kerala"}
+{"customer_id": "CUS_000146", "merchant_id": "MER_000002", "name": "Sunita Tiwari", "email": "sunita.tiwari488@hotmail.com", "phone": "+918651085057", "city": "Bangalore", "state": "Karnataka"}
+{"customer_id": "CUS_000147", "merchant_id": "MER_000005", "name": "Devi Sharma", "email": "devi.sharma969@rediffmail.com", "phone": "+916880871219", "city": "Warangal", "state": "Telangana"}
+{"customer_id": "CUS_000148", "merchant_id": "MER_000005", "name": "Rakesh Singh", "email": "rakesh.singh491@hotmail.com", "phone": "+919836691577", "city": "Mumbai", "state": "Maharashtra"}
+{"customer_id": "CUS_000149", "merchant_id": "MER_000001", "name": "Vivek Sharma", "email": "vivek.sharma330@rediffmail.com", "phone": "+917170525764", "city": "Bangalore", "state": "Karnataka"}
+{"customer_id": "CUS_000150", "merchant_id": "MER_000002", "name": "Rahul Yadav", "email": "rahul.yadav612@rediffmail.com", "phone": "+918587173220", "city": "Agra", "state": "Uttar Pradesh"}
+{"customer_id": "CUS_000151", "merchant_id": "MER_000005", "name": "Swati Deshmukh", "email": "swati.deshmukh739@yahoo.com", "phone": "+919584853393", "city": "Belgaum", "state": "Karnataka"}
+{"customer_id": "CUS_000152", "merchant_id": "MER_000002", "name": "Sunil Nair", "email": "sunil.nair426@protonmail.com", "phone": "+916435596237", "city": "Siliguri", "state": "West Bengal"}
+{"customer_id": "CUS_000153", "merchant_id": "MER_000004", "name": "Rohit Kumar", "email": "rohit.kumar704@hotmail.com", "phone": "+916197951867", "city": "Noida", "state": "Uttar Pradesh"}
+{"customer_id": "CUS_000154", "merchant_id": "MER_000001", "name": "Chandan Saxena", "email": "chandan.saxena832@yahoo.com", "phone": "+916729712082", "city": "Hubli", "state": "Karnataka"}
+{"customer_id": "CUS_000155", "merchant_id": "MER_000005", "name": "Sandeep Dutta", "email": "sandeep.dutta895@protonmail.com", "phone": "+919874233009", "city": "Udaipur", "state": "Rajasthan"}
+{"customer_id": "CUS_000156", "merchant_id": "MER_000001", "name": "Raj Mishra", "email": "raj.mishra592@rediffmail.com", "phone": "+917266140258", "city": "Lucknow", "state": "Uttar Pradesh"}
+{"customer_id": "CUS_000157", "merchant_id": "MER_000004", "name": "Nandini Deshmukh", "email": "nandini.deshmukh377@gmail.com", "phone": "+918716435189", "city": "Varanasi", "state": "Uttar Pradesh"}
+{"customer_id": "CUS_000158", "merchant_id": "MER_000002", "name": "Suresh Yadav", "email": "suresh.yadav624@protonmail.com", "phone": "+918131088245", "city": "Kochi", "state": "Kerala"}
+{"customer_id": "CUS_000159", "merchant_id": "MER_000002", "name": "Priya Mishra", "email": "priya.mishra7@yahoo.com", "phone": "+917708082645", "city": "Kanpur", "state": "Uttar Pradesh"}
+{"customer_id": "CUS_000160", "merchant_id": "MER_000004", "name": "Arjun Goyal", "email": "arjun.goyal765@rediffmail.com", "phone": "+917503935666", "city": "Mumbai", "state": "Maharashtra"}
+{"customer_id": "CUS_000161", "merchant_id": "MER_000004", "name": "Varun Nair", "email": "varun.nair320@protonmail.com", "phone": "+918934120892", "city": "Rohini", "state": "Delhi"}
+{"customer_id": "CUS_000162", "merchant_id": "MER_000005", "name": "Bharti Chauhan", "email": "bharti.chauhan773@rediffmail.com", "phone": "+916823668399", "city": "Dwarka", "state": "Delhi"}
+{"customer_id": "CUS_000163", "merchant_id": "MER_000001", "name": "Priya Sharma", "email": "priya.sharma622@hotmail.com", "phone": "+919393310667", "city": "Kota", "state": "Rajasthan"}
+{"customer_id": "CUS_000164", "merchant_id": "MER_000002", "name": "Dhruv Patel", "email": "dhruv.patel291@protonmail.com", "phone": "+919665791188", "city": "Jaipur", "state": "Rajasthan"}
+{"customer_id": "CUS_000165", "merchant_id": "MER_000003", "name": "Ananya Kapoor", "email": "ananya.kapoor57@gmail.com", "phone": "+917423646570", "city": "Ajmer", "state": "Rajasthan"}
+{"customer_id": "CUS_000166", "merchant_id": "MER_000002", "name": "Geeta Kumar", "email": "geeta.kumar123@gmail.com", "phone": "+919902100304", "city": "Vadodara", "state": "Gujarat"}
+{"customer_id": "CUS_000167", "merchant_id": "MER_000004", "name": "Kavita Garg", "email": "kavita.garg721@yahoo.com", "phone": "+918177390472", "city": "Ajmer", "state": "Rajasthan"}
+{"customer_id": "CUS_000168", "merchant_id": "MER_000004", "name": "Ananya Saxena", "email": "ananya.saxena944@gmail.com", "phone": "+918718216692", "city": "Thane", "state": "Maharashtra"}
+{"customer_id": "CUS_000169", "merchant_id": "MER_000004", "name": "Sonu Reddy", "email": "sonu.reddy415@gmail.com", "phone": "+918284547422", "city": "Ahmedabad", "state": "Gujarat"}
+{"customer_id": "CUS_000170", "merchant_id": "MER_000005", "name": "Varun Patil", "email": "varun.patil865@gmail.com", "phone": "+917567804106", "city": "Mangalore", "state": "Karnataka"}
+{"customer_id": "CUS_000171", "merchant_id": "MER_000005", "name": "Sonu Tiwari", "email": "sonu.tiwari892@outlook.com", "phone": "+918337911187", "city": "Mangalore", "state": "Karnataka"}
+{"customer_id": "CUS_000172", "merchant_id": "MER_000003", "name": "Karan Chopra", "email": "karan.chopra544@rediffmail.com", "phone": "+917933468715", "city": "Hyderabad", "state": "Telangana"}
+{"customer_id": "CUS_000173", "merchant_id": "MER_000003", "name": "Sapna Goyal", "email": "sapna.goyal150@outlook.com", "phone": "+917286293158", "city": "Chennai", "state": "Tamil Nadu"}
+{"customer_id": "CUS_000174", "merchant_id": "MER_000005", "name": "Isha Chopra", "email": "isha.chopra476@rediffmail.com", "phone": "+919831361497", "city": "Saket", "state": "Delhi"}
+{"customer_id": "CUS_000175", "merchant_id": "MER_000005", "name": "Sachin Mukherjee", "email": "sachin.mukherjee70@hotmail.com", "phone": "+919777944609", "city": "Saket", "state": "Delhi"}
+{"customer_id": "CUS_000176", "merchant_id": "MER_000003", "name": "Rahul Chauhan", "email": "rahul.chauhan76@outlook.com", "phone": "+919585238820", "city": "Varanasi", "state": "Uttar Pradesh"}
+{"customer_id": "CUS_000177", "merchant_id": "MER_000001", "name": "Anjali Patil", "email": "anjali.patil661@gmail.com", "phone": "+919596832859", "city": "Ahmedabad", "state": "Gujarat"}
+{"customer_id": "CUS_000178", "merchant_id": "MER_000005", "name": "Ananya Sharma", "email": "ananya.sharma330@rediffmail.com", "phone": "+919638339044", "city": "Thiruvananthapuram", "state": "Kerala"}
+{"customer_id": "CUS_000179", "merchant_id": "MER_000002", "name": "Anjali Sharma", "email": "anjali.sharma732@gmail.com", "phone": "+917142028540", "city": "Hubli", "state": "Karnataka"}
+{"customer_id": "CUS_000180", "merchant_id": "MER_000002", "name": "Tanvi Sharma", "email": "tanvi.sharma373@outlook.com", "phone": "+918515985367", "city": "Warangal", "state": "Telangana"}
+{"customer_id": "CUS_000181", "merchant_id": "MER_000004", "name": "Sanjay Chauhan", "email": "sanjay.chauhan338@gmail.com", "phone": "+919405100495", "city": "Lucknow", "state": "Uttar Pradesh"}
+{"customer_id": "CUS_000182", "merchant_id": "MER_000003", "name": "Isha Nair", "email": "isha.nair680@yahoo.com", "phone": "+918433108786", "city": "Belgaum", "state": "Karnataka"}
+{"customer_id": "CUS_000183", "merchant_id": "MER_000004", "name": "Gaurav Das", "email": "gaurav.das386@protonmail.com", "phone": "+918973150512", "city": "Gandhinagar", "state": "Gujarat"}
+{"customer_id": "CUS_000184", "merchant_id": "MER_000002", "name": "Chandan Saxena", "email": "chandan.saxena19@outlook.com", "phone": "+918293555835", "city": "Nizamabad", "state": "Telangana"}
+{"customer_id": "CUS_000185", "merchant_id": "MER_000002", "name": "Sanjay Srivastava", "email": "sanjay.srivastava141@yahoo.com", "phone": "+916417604347", "city": "Coimbatore", "state": "Tamil Nadu"}
+{"customer_id": "CUS_000186", "merchant_id": "MER_000001", "name": "Amit Nair", "email": "amit.nair612@hotmail.com", "phone": "+917274211616", "city": "Thiruvananthapuram", "state": "Kerala"}
+{"customer_id": "CUS_000187", "merchant_id": "MER_000002", "name": "Karan Sharma", "email": "karan.sharma374@protonmail.com", "phone": "+917576954730", "city": "Thane", "state": "Maharashtra"}
+{"customer_id": "CUS_000188", "merchant_id": "MER_000005", "name": "Raj Sharma", "email": "raj.sharma245@outlook.com", "phone": "+919996696177", "city": "Tiruchirappalli", "state": "Tamil Nadu"}
+{"customer_id": "CUS_000189", "merchant_id": "MER_000002", "name": "Shruti Sharma", "email": "shruti.sharma797@hotmail.com", "phone": "+919274008639", "city": "Durgapur", "state": "West Bengal"}
+{"customer_id": "CUS_000190", "merchant_id": "MER_000002", "name": "Geeta Kumar", "email": "geeta.kumar896@outlook.com", "phone": "+916863860982", "city": "Thane", "state": "Maharashtra"}
+{"customer_id": "CUS_000191", "merchant_id": "MER_000005", "name": "Divya Mehta", "email": "divya.mehta280@hotmail.com", "phone": "+917992329618", "city": "Mysore", "state": "Karnataka"}
+{"customer_id": "CUS_000192", "merchant_id": "MER_000004", "name": "Chandan Kapoor", "email": "chandan.kapoor953@gmail.com", "phone": "+919157184151", "city": "Durgapur", "state": "West Bengal"}
+{"customer_id": "CUS_000193", "merchant_id": "MER_000004", "name": "Shruti Khan", "email": "shruti.khan384@yahoo.com", "phone": "+916442185272", "city": "Jaipur", "state": "Rajasthan"}
+{"customer_id": "CUS_000194", "merchant_id": "MER_000001", "name": "Sandeep Goyal", "email": "sandeep.goyal294@hotmail.com", "phone": "+917914799481", "city": "New Delhi", "state": "Delhi"}
+{"customer_id": "CUS_000195", "merchant_id": "MER_000004", "name": "Usha Agarwal", "email": "usha.agarwal263@yahoo.com", "phone": "+917689274064", "city": "Bangalore", "state": "Karnataka"}
+{"customer_id": "CUS_000196", "merchant_id": "MER_000005", "name": "Suresh Dutta", "email": "suresh.dutta309@gmail.com", "phone": "+916356022467", "city": "Surat", "state": "Gujarat"}
+{"customer_id": "CUS_000197", "merchant_id": "MER_000004", "name": "Varun Chopra", "email": "varun.chopra612@rediffmail.com", "phone": "+916778556450", "city": "Mangalore", "state": "Karnataka"}
+{"customer_id": "CUS_000198", "merchant_id": "MER_000005", "name": "Nikhil Goyal", "email": "nikhil.goyal2@rediffmail.com", "phone": "+918358303887", "city": "Rajkot", "state": "Gujarat"}
+{"customer_id": "CUS_000199", "merchant_id": "MER_000005", "name": "Sunita Iyer", "email": "sunita.iyer999@outlook.com", "phone": "+916664852025", "city": "Belgaum", "state": "Karnataka"}
+{"customer_id": "CUS_000200", "merchant_id": "MER_000005", "name": "Aditya Pillai", "email": "aditya.pillai651@hotmail.com", "phone": "+918372354893", "city": "Kolkata", "state": "West Bengal"}
+{"customer_id": "CUS_000201", "merchant_id": "MER_000001", "name": "Seema Chopra", "email": "seema.chopra751@protonmail.com", "phone": "+916928393291", "city": "Noida", "state": "Uttar Pradesh"}
+{"customer_id": "CUS_000202", "merchant_id": "MER_000005", "name": "Sandeep Garg", "email": "sandeep.garg560@outlook.com", "phone": "+917991617660", "city": "Nagpur", "state": "Maharashtra"}
+{"customer_id": "CUS_000203", "merchant_id": "MER_000004", "name": "Vinod Iyer", "email": "vinod.iyer734@hotmail.com", "phone": "+916415081566", "city": "New Delhi", "state": "Delhi"}
+{"customer_id": "CUS_000204", "merchant_id": "MER_000002", "name": "Ananya Jain", "email": "ananya.jain956@outlook.com", "phone": "+919975535611", "city": "Nagpur", "state": "Maharashtra"}
+{"customer_id": "CUS_000205", "merchant_id": "MER_000005", "name": "Vikram Kumar", "email": "vikram.kumar293@outlook.com", "phone": "+916804086195", "city": "Pune", "state": "Maharashtra"}
+{"customer_id": "CUS_000206", "merchant_id": "MER_000003", "name": "Priya Dutta", "email": "priya.dutta911@hotmail.com", "phone": "+919515156661", "city": "Agra", "state": "Uttar Pradesh"}
+{"customer_id": "CUS_000207", "merchant_id": "MER_000003", "name": "Krishna Srivastava", "email": "krishna.srivastava947@rediffmail.com", "phone": "+918960226208", "city": "Durgapur", "state": "West Bengal"}
+{"customer_id": "CUS_000208", "merchant_id": "MER_000001", "name": "Suresh Das", "email": "suresh.das843@yahoo.com", "phone": "+918444898148", "city": "Ajmer", "state": "Rajasthan"}
+{"customer_id": "CUS_000209", "merchant_id": "MER_000001", "name": "Bharti Mukherjee", "email": "bharti.mukherjee457@rediffmail.com", "phone": "+919278933456", "city": "Vadodara", "state": "Gujarat"}
+{"customer_id": "CUS_000210", "merchant_id": "MER_000004", "name": "Sapna Sharma", "email": "sapna.sharma630@hotmail.com", "phone": "+918786624943", "city": "Nagpur", "state": "Maharashtra"}
+{"customer_id": "CUS_000211", "merchant_id": "MER_000001", "name": "Arun Rao", "email": "arun.rao821@protonmail.com", "phone": "+917133436988", "city": "Varanasi", "state": "Uttar Pradesh"}
+{"customer_id": "CUS_000212", "merchant_id": "MER_000002", "name": "Tanvi Bhatia", "email": "tanvi.bhatia242@protonmail.com", "phone": "+918488856231", "city": "New Delhi", "state": "Delhi"}
+{"customer_id": "CUS_000213", "merchant_id": "MER_000004", "name": "Amit Goyal", "email": "amit.goyal381@hotmail.com", "phone": "+916716243819", "city": "Durgapur", "state": "West Bengal"}
+{"customer_id": "CUS_000214", "merchant_id": "MER_000002", "name": "Shivani Rao", "email": "shivani.rao256@gmail.com", "phone": "+916889924866", "city": "Kanpur", "state": "Uttar Pradesh"}
+{"customer_id": "CUS_000215", "merchant_id": "MER_000002", "name": "Yash Tiwari", "email": "yash.tiwari121@outlook.com", "phone": "+918855954847", "city": "Ajmer", "state": "Rajasthan"}
+{"customer_id": "CUS_000216", "merchant_id": "MER_000004", "name": "Mohan Mehta", "email": "mohan.mehta126@yahoo.com", "phone": "+916585377142", "city": "Howrah", "state": "West Bengal"}
+{"customer_id": "CUS_000217", "merchant_id": "MER_000002", "name": "Tanvi Das", "email": "tanvi.das727@gmail.com", "phone": "+918422076028", "city": "Kanpur", "state": "Uttar Pradesh"}
+{"customer_id": "CUS_000218", "merchant_id": "MER_000002", "name": "Kavita Patil", "email": "kavita.patil125@yahoo.com", "phone": "+917354193540", "city": "Warangal", "state": "Telangana"}
+{"customer_id": "CUS_000219", "merchant_id": "MER_000004", "name": "Akshay Patil", "email": "akshay.patil479@rediffmail.com", "phone": "+917757074545", "city": "Nizamabad", "state": "Telangana"}
+{"customer_id": "CUS_000220", "merchant_id": "MER_000001", "name": "Arjun Mishra", "email": "arjun.mishra539@hotmail.com", "phone": "+919984053945", "city": "Kota", "state": "Rajasthan"}
+{"customer_id": "CUS_000221", "merchant_id": "MER_000005", "name": "Arun Garg", "email": "arun.garg461@hotmail.com", "phone": "+918237798236", "city": "Lucknow", "state": "Uttar Pradesh"}
+{"customer_id": "CUS_000222", "merchant_id": "MER_000005", "name": "Krishna Garg", "email": "krishna.garg933@gmail.com", "phone": "+916656307931", "city": "Ajmer", "state": "Rajasthan"}
+{"customer_id": "CUS_000223", "merchant_id": "MER_000002", "name": "Rakesh Gupta", "email": "rakesh.gupta958@protonmail.com", "phone": "+917471539452", "city": "Rohini", "state": "Delhi"}
+{"customer_id": "CUS_000224", "merchant_id": "MER_000005", "name": "Raj Das", "email": "raj.das651@rediffmail.com", "phone": "+918234400576", "city": "Surat", "state": "Gujarat"}
+{"customer_id": "CUS_000225", "merchant_id": "MER_000003", "name": "Chandan Thakur", "email": "chandan.thakur965@rediffmail.com", "phone": "+917283825267", "city": "Janakpuri", "state": "Delhi"}
+{"customer_id": "CUS_000226", "merchant_id": "MER_000005", "name": "Sanjay Bhatia", "email": "sanjay.bhatia47@protonmail.com", "phone": "+918799145494", "city": "Mumbai", "state": "Maharashtra"}
+{"customer_id": "CUS_000227", "merchant_id": "MER_000002", "name": "Sunita Bansal", "email": "sunita.bansal297@protonmail.com", "phone": "+918618558050", "city": "Asansol", "state": "West Bengal"}
+{"customer_id": "CUS_000228", "merchant_id": "MER_000002", "name": "Sonu Mishra", "email": "sonu.mishra706@gmail.com", "phone": "+917572022811", "city": "Kolkata", "state": "West Bengal"}
+{"customer_id": "CUS_000229", "merchant_id": "MER_000004", "name": "Vinod Singh", "email": "vinod.singh622@yahoo.com", "phone": "+918871336275", "city": "Madurai", "state": "Tamil Nadu"}
+{"customer_id": "CUS_000230", "merchant_id": "MER_000003", "name": "Sapna Rao", "email": "sapna.rao528@rediffmail.com", "phone": "+916442648079", "city": "Rohini", "state": "Delhi"}
+{"customer_id": "CUS_000231", "merchant_id": "MER_000002", "name": "Vijay Dutta", "email": "vijay.dutta254@yahoo.com", "phone": "+916154337019", "city": "Rajkot", "state": "Gujarat"}
+{"customer_id": "CUS_000232", "merchant_id": "MER_000003", "name": "Simran Reddy", "email": "simran.reddy834@outlook.com", "phone": "+918303832812", "city": "Coimbatore", "state": "Tamil Nadu"}
+{"customer_id": "CUS_000233", "merchant_id": "MER_000002", "name": "Yash Thakur", "email": "yash.thakur901@outlook.com", "phone": "+919124885365", "city": "Siliguri", "state": "West Bengal"}
+{"customer_id": "CUS_000234", "merchant_id": "MER_000001", "name": "Sneha Thakur", "email": "sneha.thakur221@rediffmail.com", "phone": "+918152246275", "city": "Howrah", "state": "West Bengal"}
+{"customer_id": "CUS_000235", "merchant_id": "MER_000001", "name": "Raj Srivastava", "email": "raj.srivastava293@rediffmail.com", "phone": "+916215424112", "city": "Thrissur", "state": "Kerala"}
+{"customer_id": "CUS_000236", "merchant_id": "MER_000004", "name": "Geeta Kumar", "email": "geeta.kumar375@gmail.com", "phone": "+919154930149", "city": "Agra", "state": "Uttar Pradesh"}
+{"customer_id": "CUS_000237", "merchant_id": "MER_000005", "name": "Lakshmi Patil", "email": "lakshmi.patil76@hotmail.com", "phone": "+919920772671", "city": "Nizamabad", "state": "Telangana"}
+{"customer_id": "CUS_000238", "merchant_id": "MER_000005", "name": "Rahul Dutta", "email": "rahul.dutta404@outlook.com", "phone": "+918698967370", "city": "New Delhi", "state": "Delhi"}
+{"customer_id": "CUS_000239", "merchant_id": "MER_000003", "name": "Harsh Jain", "email": "harsh.jain513@gmail.com", "phone": "+916141783553", "city": "Thrissur", "state": "Kerala"}
+{"customer_id": "CUS_000240", "merchant_id": "MER_000002", "name": "Sandeep Sinha", "email": "sandeep.sinha153@rediffmail.com", "phone": "+917452150647", "city": "Karimnagar", "state": "Telangana"}
+{"customer_id": "CUS_000241", "merchant_id": "MER_000005", "name": "Rohit Gupta", "email": "rohit.gupta758@outlook.com", "phone": "+918644725317", "city": "Ajmer", "state": "Rajasthan"}
+{"customer_id": "CUS_000242", "merchant_id": "MER_000005", "name": "Vivek Mishra", "email": "vivek.mishra378@outlook.com", "phone": "+916547256709", "city": "Kolkata", "state": "West Bengal"}
+{"customer_id": "CUS_000243", "merchant_id": "MER_000005", "name": "Ravi Bansal", "email": "ravi.bansal272@protonmail.com", "phone": "+917874597473", "city": "Thrissur", "state": "Kerala"}
+{"customer_id": "CUS_000244", "merchant_id": "MER_000001", "name": "Vinod Gupta", "email": "vinod.gupta152@protonmail.com", "phone": "+917133898577", "city": "Karimnagar", "state": "Telangana"}
+{"customer_id": "CUS_000245", "merchant_id": "MER_000005", "name": "Dhruv Jain", "email": "dhruv.jain322@hotmail.com", "phone": "+917543412542", "city": "Thane", "state": "Maharashtra"}
+{"customer_id": "CUS_000246", "merchant_id": "MER_000002", "name": "Sunil Thakur", "email": "sunil.thakur894@protonmail.com", "phone": "+916857820386", "city": "Thrissur", "state": "Kerala"}
+{"customer_id": "CUS_000247", "merchant_id": "MER_000002", "name": "Meera Yadav", "email": "meera.yadav539@hotmail.com", "phone": "+918285953213", "city": "Agra", "state": "Uttar Pradesh"}
+{"customer_id": "CUS_000248", "merchant_id": "MER_000004", "name": "Sanjay Verma", "email": "sanjay.verma625@hotmail.com", "phone": "+917364697908", "city": "Kanpur", "state": "Uttar Pradesh"}
+{"customer_id": "CUS_000249", "merchant_id": "MER_000003", "name": "Rakesh Kapoor", "email": "rakesh.kapoor722@yahoo.com", "phone": "+919440419907", "city": "Vadodara", "state": "Gujarat"}
+{"customer_id": "CUS_000250", "merchant_id": "MER_000004", "name": "Sapna Yadav", "email": "sapna.yadav125@rediffmail.com", "phone": "+919523625992", "city": "Vadodara", "state": "Gujarat"}
+{"customer_id": "CUS_000251", "merchant_id": "MER_000003", "name": "Harsh Mehta", "email": "harsh.mehta979@protonmail.com", "phone": "+916471904990", "city": "Nagpur", "state": "Maharashtra"}
+{"customer_id": "CUS_000252", "merchant_id": "MER_000004", "name": "Pooja Sinha", "email": "pooja.sinha848@rediffmail.com", "phone": "+918703462253", "city": "Coimbatore", "state": "Tamil Nadu"}
+{"customer_id": "CUS_000253", "merchant_id": "MER_000003", "name": "Geeta Deshmukh", "email": "geeta.deshmukh249@gmail.com", "phone": "+917784987769", "city": "Thiruvananthapuram", "state": "Kerala"}
+{"customer_id": "CUS_000254", "merchant_id": "MER_000002", "name": "Anita Deshmukh", "email": "anita.deshmukh735@hotmail.com", "phone": "+916831424323", "city": "Udaipur", "state": "Rajasthan"}
+{"customer_id": "CUS_000255", "merchant_id": "MER_000002", "name": "Aarav Yadav", "email": "aarav.yadav669@hotmail.com", "phone": "+919798510601", "city": "Saket", "state": "Delhi"}
+{"customer_id": "CUS_000256", "merchant_id": "MER_000002", "name": "Raj Mukherjee", "email": "raj.mukherjee930@gmail.com", "phone": "+917674615376", "city": "Ahmedabad", "state": "Gujarat"}
+{"customer_id": "CUS_000257", "merchant_id": "MER_000001", "name": "Kavita Reddy", "email": "kavita.reddy857@hotmail.com", "phone": "+919300050585", "city": "New Delhi", "state": "Delhi"}
+{"customer_id": "CUS_000258", "merchant_id": "MER_000003", "name": "Amit Agarwal", "email": "amit.agarwal618@gmail.com", "phone": "+918405545745", "city": "Gandhinagar", "state": "Gujarat"}
+{"customer_id": "CUS_000259", "merchant_id": "MER_000004", "name": "Yash Garg", "email": "yash.garg280@yahoo.com", "phone": "+916455069350", "city": "Karimnagar", "state": "Telangana"}
+{"customer_id": "CUS_000260", "merchant_id": "MER_000002", "name": "Varun Kumar", "email": "varun.kumar755@outlook.com", "phone": "+918709650444", "city": "New Delhi", "state": "Delhi"}
+{"customer_id": "CUS_000261", "merchant_id": "MER_000002", "name": "Kavita Rao", "email": "kavita.rao336@gmail.com", "phone": "+919818608005", "city": "Ajmer", "state": "Rajasthan"}
+{"customer_id": "CUS_000262", "merchant_id": "MER_000001", "name": "Krishna Garg", "email": "krishna.garg959@yahoo.com", "phone": "+916380016058", "city": "Durgapur", "state": "West Bengal"}
+{"customer_id": "CUS_000263", "merchant_id": "MER_000004", "name": "Nikhil Sharma", "email": "nikhil.sharma310@rediffmail.com", "phone": "+916380840558", "city": "Vadodara", "state": "Gujarat"}
+{"customer_id": "CUS_000264", "merchant_id": "MER_000003", "name": "Nikhil Chauhan", "email": "nikhil.chauhan315@yahoo.com", "phone": "+919836665942", "city": "Mangalore", "state": "Karnataka"}
+{"customer_id": "CUS_000265", "merchant_id": "MER_000005", "name": "Ravi Dutta", "email": "ravi.dutta630@yahoo.com", "phone": "+917243418388", "city": "Vadodara", "state": "Gujarat"}
+{"customer_id": "CUS_000266", "merchant_id": "MER_000004", "name": "Isha Singh", "email": "isha.singh426@protonmail.com", "phone": "+919913198930", "city": "Kozhikode", "state": "Kerala"}
+{"customer_id": "CUS_000267", "merchant_id": "MER_000005", "name": "Mohan Khan", "email": "mohan.khan539@hotmail.com", "phone": "+918183862154", "city": "Kochi", "state": "Kerala"}
+{"customer_id": "CUS_000268", "merchant_id": "MER_000005", "name": "Dhruv Chauhan", "email": "dhruv.chauhan587@rediffmail.com", "phone": "+917276670424", "city": "Warangal", "state": "Telangana"}
+{"customer_id": "CUS_000269", "merchant_id": "MER_000003", "name": "Tanvi Dutta", "email": "tanvi.dutta501@gmail.com", "phone": "+919968326513", "city": "Tiruchirappalli", "state": "Tamil Nadu"}
+{"customer_id": "CUS_000270", "merchant_id": "MER_000001", "name": "Varun Garg", "email": "varun.garg468@rediffmail.com", "phone": "+916700003920", "city": "Karimnagar", "state": "Telangana"}
+{"customer_id": "CUS_000271", "merchant_id": "MER_000004", "name": "Ravi Bansal", "email": "ravi.bansal837@gmail.com", "phone": "+917720956992", "city": "Udaipur", "state": "Rajasthan"}
+{"customer_id": "CUS_000272", "merchant_id": "MER_000001", "name": "Ananya Saxena", "email": "ananya.saxena555@gmail.com", "phone": "+916606882594", "city": "Lucknow", "state": "Uttar Pradesh"}
+{"customer_id": "CUS_000273", "merchant_id": "MER_000001", "name": "Raj Reddy", "email": "raj.reddy785@protonmail.com", "phone": "+919502074351", "city": "Dwarka", "state": "Delhi"}
+{"customer_id": "CUS_000274", "merchant_id": "MER_000004", "name": "Usha Pillai", "email": "usha.pillai700@protonmail.com", "phone": "+917801726890", "city": "Jaipur", "state": "Rajasthan"}
+{"customer_id": "CUS_000275", "merchant_id": "MER_000003", "name": "Divya Iyer", "email": "divya.iyer542@yahoo.com", "phone": "+917996382881", "city": "Karimnagar", "state": "Telangana"}
+{"customer_id": "CUS_000276", "merchant_id": "MER_000001", "name": "Aditya Mishra", "email": "aditya.mishra435@rediffmail.com", "phone": "+919984076542", "city": "Asansol", "state": "West Bengal"}
+{"customer_id": "CUS_000277", "merchant_id": "MER_000002", "name": "Nisha Singh", "email": "nisha.singh283@yahoo.com", "phone": "+916134593072", "city": "Noida", "state": "Uttar Pradesh"}
+{"customer_id": "CUS_000278", "merchant_id": "MER_000004", "name": "Aditya Khan", "email": "aditya.khan104@rediffmail.com", "phone": "+916579362443", "city": "Chennai", "state": "Tamil Nadu"}
+{"customer_id": "CUS_000279", "merchant_id": "MER_000005", "name": "Anita Khan", "email": "anita.khan450@yahoo.com", "phone": "+917910015485", "city": "Thane", "state": "Maharashtra"}
+{"customer_id": "CUS_000280", "merchant_id": "MER_000001", "name": "Geeta Thakur", "email": "geeta.thakur836@protonmail.com", "phone": "+918720058859", "city": "Surat", "state": "Gujarat"}
+{"customer_id": "CUS_000281", "merchant_id": "MER_000005", "name": "Sachin Khan", "email": "sachin.khan677@rediffmail.com", "phone": "+917544056890", "city": "Surat", "state": "Gujarat"}
+{"customer_id": "CUS_000282", "merchant_id": "MER_000003", "name": "Rahul Chauhan", "email": "rahul.chauhan642@protonmail.com", "phone": "+919696840109", "city": "Warangal", "state": "Telangana"}
+{"customer_id": "CUS_000283", "merchant_id": "MER_000004", "name": "Anita Patel", "email": "anita.patel327@protonmail.com", "phone": "+919538364955", "city": "Ajmer", "state": "Rajasthan"}
+{"customer_id": "CUS_000284", "merchant_id": "MER_000002", "name": "Rakesh Pillai", "email": "rakesh.pillai485@yahoo.com", "phone": "+917422913264", "city": "Janakpuri", "state": "Delhi"}
+{"customer_id": "CUS_000285", "merchant_id": "MER_000002", "name": "Vijay Chauhan", "email": "vijay.chauhan992@hotmail.com", "phone": "+917517061783", "city": "Karimnagar", "state": "Telangana"}
+{"customer_id": "CUS_000286", "merchant_id": "MER_000002", "name": "Pooja Joshi", "email": "pooja.joshi945@hotmail.com", "phone": "+918199282456", "city": "Lucknow", "state": "Uttar Pradesh"}
+{"customer_id": "CUS_000287", "merchant_id": "MER_000005", "name": "Lakshmi Chauhan", "email": "lakshmi.chauhan690@rediffmail.com", "phone": "+916178151583", "city": "Rajkot", "state": "Gujarat"}
+{"customer_id": "CUS_000288", "merchant_id": "MER_000002", "name": "Mohan Sinha", "email": "mohan.sinha311@gmail.com", "phone": "+917304036387", "city": "Madurai", "state": "Tamil Nadu"}
+{"customer_id": "CUS_000289", "merchant_id": "MER_000001", "name": "Vinod Khan", "email": "vinod.khan407@yahoo.com", "phone": "+918932701695", "city": "Thiruvananthapuram", "state": "Kerala"}
+{"customer_id": "CUS_000290", "merchant_id": "MER_000003", "name": "Siddharth Singh", "email": "siddharth.singh316@outlook.com", "phone": "+918650632566", "city": "Nizamabad", "state": "Telangana"}
+{"customer_id": "CUS_000291", "merchant_id": "MER_000004", "name": "Vijay Deshmukh", "email": "vijay.deshmukh937@yahoo.com", "phone": "+918435997460", "city": "Durgapur", "state": "West Bengal"}
+{"customer_id": "CUS_000292", "merchant_id": "MER_000004", "name": "Ananya Kapoor", "email": "ananya.kapoor268@rediffmail.com", "phone": "+919416960306", "city": "New Delhi", "state": "Delhi"}
+{"customer_id": "CUS_000293", "merchant_id": "MER_000002", "name": "Manish Nair", "email": "manish.nair584@yahoo.com", "phone": "+919691247918", "city": "Salem", "state": "Tamil Nadu"}
+{"customer_id": "CUS_000294", "merchant_id": "MER_000003", "name": "Pooja Srivastava", "email": "pooja.srivastava173@protonmail.com", "phone": "+918281747678", "city": "Siliguri", "state": "West Bengal"}
+{"customer_id": "CUS_000295", "merchant_id": "MER_000002", "name": "Vivek Iyer", "email": "vivek.iyer537@gmail.com", "phone": "+916978316418", "city": "Hyderabad", "state": "Telangana"}
+{"customer_id": "CUS_000296", "merchant_id": "MER_000001", "name": "Aarav Reddy", "email": "aarav.reddy70@protonmail.com", "phone": "+917109815572", "city": "Dwarka", "state": "Delhi"}
+{"customer_id": "CUS_000297", "merchant_id": "MER_000002", "name": "Varun Patil", "email": "varun.patil654@protonmail.com", "phone": "+919807901168", "city": "Nashik", "state": "Maharashtra"}
+{"customer_id": "CUS_000298", "merchant_id": "MER_000004", "name": "Aditya Agarwal", "email": "aditya.agarwal13@gmail.com", "phone": "+918675244407", "city": "Karimnagar", "state": "Telangana"}
+{"customer_id": "CUS_000299", "merchant_id": "MER_000003", "name": "Aditya Thakur", "email": "aditya.thakur110@gmail.com", "phone": "+917358738317", "city": "Jodhpur", "state": "Rajasthan"}
+{"customer_id": "CUS_000300", "merchant_id": "MER_000002", "name": "Pooja Patel", "email": "pooja.patel81@outlook.com", "phone": "+919592845076", "city": "Rajkot", "state": "Gujarat"}
+{"customer_id": "CUS_000301", "merchant_id": "MER_000005", "name": "Nisha Kapoor", "email": "nisha.kapoor670@protonmail.com", "phone": "+916200395400", "city": "Ahmedabad", "state": "Gujarat"}
+{"customer_id": "CUS_000302", "merchant_id": "MER_000004", "name": "Siddharth Pillai", "email": "siddharth.pillai58@protonmail.com", "phone": "+916854674236", "city": "Karimnagar", "state": "Telangana"}
+{"customer_id": "CUS_000303", "merchant_id": "MER_000002", "name": "Bharti Srivastava", "email": "bharti.srivastava580@gmail.com", "phone": "+916346709900", "city": "Udaipur", "state": "Rajasthan"}
+{"customer_id": "CUS_000304", "merchant_id": "MER_000002", "name": "Vikram Malhotra", "email": "vikram.malhotra701@outlook.com", "phone": "+916292580427", "city": "Mumbai", "state": "Maharashtra"}
+{"customer_id": "CUS_000305", "merchant_id": "MER_000003", "name": "Aditya Joshi", "email": "aditya.joshi771@protonmail.com", "phone": "+919182611003", "city": "Thiruvananthapuram", "state": "Kerala"}
+{"customer_id": "CUS_000306", "merchant_id": "MER_000003", "name": "Jaya Khan", "email": "jaya.khan694@rediffmail.com", "phone": "+918512151733", "city": "Thrissur", "state": "Kerala"}
+{"customer_id": "CUS_000307", "merchant_id": "MER_000002", "name": "Bharti Thakur", "email": "bharti.thakur101@hotmail.com", "phone": "+917181623972", "city": "Lucknow", "state": "Uttar Pradesh"}
+{"customer_id": "CUS_000308", "merchant_id": "MER_000003", "name": "Sneha Mukherjee", "email": "sneha.mukherjee803@hotmail.com", "phone": "+919344961731", "city": "Nagpur", "state": "Maharashtra"}
+{"customer_id": "CUS_000309", "merchant_id": "MER_000003", "name": "Siddharth Saxena", "email": "siddharth.saxena677@hotmail.com", "phone": "+916929108437", "city": "Janakpuri", "state": "Delhi"}
+{"customer_id": "CUS_000310", "merchant_id": "MER_000005", "name": "Rajesh Khan", "email": "rajesh.khan275@yahoo.com", "phone": "+919864157523", "city": "Bangalore", "state": "Karnataka"}
+{"customer_id": "CUS_000311", "merchant_id": "MER_000002", "name": "Simran Mukherjee", "email": "simran.mukherjee94@gmail.com", "phone": "+918577531502", "city": "Lucknow", "state": "Uttar Pradesh"}
+{"customer_id": "CUS_000312", "merchant_id": "MER_000003", "name": "Priya Deshmukh", "email": "priya.deshmukh192@hotmail.com", "phone": "+919698058121", "city": "New Delhi", "state": "Delhi"}
+{"customer_id": "CUS_000313", "merchant_id": "MER_000005", "name": "Sunil Deshmukh", "email": "sunil.deshmukh363@rediffmail.com", "phone": "+916740942859", "city": "Mumbai", "state": "Maharashtra"}
+{"customer_id": "CUS_000314", "merchant_id": "MER_000005", "name": "Sachin Pillai", "email": "sachin.pillai424@hotmail.com", "phone": "+916878295151", "city": "Nagpur", "state": "Maharashtra"}
+{"customer_id": "CUS_000315", "merchant_id": "MER_000005", "name": "Nisha Tiwari", "email": "nisha.tiwari174@yahoo.com", "phone": "+918423337234", "city": "Saket", "state": "Delhi"}
+{"customer_id": "CUS_000316", "merchant_id": "MER_000003", "name": "Yash Goyal", "email": "yash.goyal446@outlook.com", "phone": "+919421856529", "city": "Mysore", "state": "Karnataka"}
+{"customer_id": "CUS_000317", "merchant_id": "MER_000004", "name": "Arun Patil", "email": "arun.patil739@protonmail.com", "phone": "+919737594763", "city": "Surat", "state": "Gujarat"}
+{"customer_id": "CUS_000318", "merchant_id": "MER_000005", "name": "Manish Singh", "email": "manish.singh312@gmail.com", "phone": "+919456715514", "city": "Mysore", "state": "Karnataka"}
+{"customer_id": "CUS_000319", "merchant_id": "MER_000005", "name": "Siddharth Nair", "email": "siddharth.nair441@protonmail.com", "phone": "+917422589929", "city": "Durgapur", "state": "West Bengal"}
+{"customer_id": "CUS_000320", "merchant_id": "MER_000003", "name": "Manish Sinha", "email": "manish.sinha988@hotmail.com", "phone": "+918412940071", "city": "Noida", "state": "Uttar Pradesh"}
+{"customer_id": "CUS_000321", "merchant_id": "MER_000004", "name": "Nisha Mukherjee", "email": "nisha.mukherjee837@hotmail.com", "phone": "+918222286118", "city": "Udaipur", "state": "Rajasthan"}
+{"customer_id": "CUS_000322", "merchant_id": "MER_000005", "name": "Manish Verma", "email": "manish.verma28@protonmail.com", "phone": "+919860603328", "city": "Janakpuri", "state": "Delhi"}
+{"customer_id": "CUS_000323", "merchant_id": "MER_000002", "name": "Tanvi Mehta", "email": "tanvi.mehta690@hotmail.com", "phone": "+917780039397", "city": "Mangalore", "state": "Karnataka"}
+{"customer_id": "CUS_000324", "merchant_id": "MER_000003", "name": "Nikhil Kumar", "email": "nikhil.kumar809@hotmail.com", "phone": "+916582181718", "city": "Saket", "state": "Delhi"}
+{"customer_id": "CUS_000325", "merchant_id": "MER_000005", "name": "Vinod Rao", "email": "vinod.rao557@gmail.com", "phone": "+918853374076", "city": "Karimnagar", "state": "Telangana"}
+{"customer_id": "CUS_000326", "merchant_id": "MER_000005", "name": "Bharti Deshmukh", "email": "bharti.deshmukh171@protonmail.com", "phone": "+916704753177", "city": "Madurai", "state": "Tamil Nadu"}
+{"customer_id": "CUS_000327", "merchant_id": "MER_000004", "name": "Sandeep Saxena", "email": "sandeep.saxena101@outlook.com", "phone": "+917648334433", "city": "Bangalore", "state": "Karnataka"}
+{"customer_id": "CUS_000328", "merchant_id": "MER_000005", "name": "Nandini Sharma", "email": "nandini.sharma475@protonmail.com", "phone": "+917470405910", "city": "Agra", "state": "Uttar Pradesh"}
+{"customer_id": "CUS_000329", "merchant_id": "MER_000001", "name": "Vinod Deshmukh", "email": "vinod.deshmukh943@gmail.com", "phone": "+916992620629", "city": "Rajkot", "state": "Gujarat"}
+{"customer_id": "CUS_000330", "merchant_id": "MER_000002", "name": "Sapna Mishra", "email": "sapna.mishra804@yahoo.com", "phone": "+919473984594", "city": "Agra", "state": "Uttar Pradesh"}
+{"customer_id": "CUS_000331", "merchant_id": "MER_000004", "name": "Deepak Sharma", "email": "deepak.sharma69@outlook.com", "phone": "+916969930526", "city": "Durgapur", "state": "West Bengal"}
+{"customer_id": "CUS_000332", "merchant_id": "MER_000001", "name": "Aditya Nair", "email": "aditya.nair953@protonmail.com", "phone": "+917654044237", "city": "Mysore", "state": "Karnataka"}
+{"customer_id": "CUS_000333", "merchant_id": "MER_000002", "name": "Jaya Nair", "email": "jaya.nair982@hotmail.com", "phone": "+917956583753", "city": "Karimnagar", "state": "Telangana"}
+{"customer_id": "CUS_000334", "merchant_id": "MER_000004", "name": "Krishna Iyer", "email": "krishna.iyer30@protonmail.com", "phone": "+917582727494", "city": "Kota", "state": "Rajasthan"}
+{"customer_id": "CUS_000335", "merchant_id": "MER_000005", "name": "Suresh Pillai", "email": "suresh.pillai211@outlook.com", "phone": "+916719922596", "city": "Pune", "state": "Maharashtra"}
+{"customer_id": "CUS_000336", "merchant_id": "MER_000001", "name": "Krishna Patil", "email": "krishna.patil469@gmail.com", "phone": "+918820160169", "city": "Noida", "state": "Uttar Pradesh"}
+{"customer_id": "CUS_000337", "merchant_id": "MER_000004", "name": "Rohit Pillai", "email": "rohit.pillai602@gmail.com", "phone": "+918477940931", "city": "Thrissur", "state": "Kerala"}
+{"customer_id": "CUS_000338", "merchant_id": "MER_000004", "name": "Kavita Mishra", "email": "kavita.mishra689@yahoo.com", "phone": "+918226552991", "city": "Kochi", "state": "Kerala"}
+{"customer_id": "CUS_000339", "merchant_id": "MER_000002", "name": "Ravi Dutta", "email": "ravi.dutta711@yahoo.com", "phone": "+919549080818", "city": "Rohini", "state": "Delhi"}
+{"customer_id": "CUS_000340", "merchant_id": "MER_000005", "name": "Geeta Pillai", "email": "geeta.pillai499@protonmail.com", "phone": "+917695832844", "city": "Jodhpur", "state": "Rajasthan"}
+{"customer_id": "CUS_000341", "merchant_id": "MER_000002", "name": "Vivek Mehta", "email": "vivek.mehta323@hotmail.com", "phone": "+916485515372", "city": "Dwarka", "state": "Delhi"}
+{"customer_id": "CUS_000342", "merchant_id": "MER_000001", "name": "Vivek Garg", "email": "vivek.garg987@rediffmail.com", "phone": "+919539304662", "city": "Salem", "state": "Tamil Nadu"}
+{"customer_id": "CUS_000343", "merchant_id": "MER_000004", "name": "Sunita Sharma", "email": "sunita.sharma85@rediffmail.com", "phone": "+916954570592", "city": "Howrah", "state": "West Bengal"}
+{"customer_id": "CUS_000344", "merchant_id": "MER_000002", "name": "Rajesh Bhatia", "email": "rajesh.bhatia551@outlook.com", "phone": "+917938313402", "city": "Surat", "state": "Gujarat"}
+{"customer_id": "CUS_000345", "merchant_id": "MER_000004", "name": "Yash Yadav", "email": "yash.yadav587@gmail.com", "phone": "+918932271276", "city": "Hyderabad", "state": "Telangana"}
+{"customer_id": "CUS_000346", "merchant_id": "MER_000005", "name": "Shivani Verma", "email": "shivani.verma560@yahoo.com", "phone": "+919209968815", "city": "Thane", "state": "Maharashtra"}
+{"customer_id": "CUS_000347", "merchant_id": "MER_000002", "name": "Rakesh Bhatia", "email": "rakesh.bhatia357@gmail.com", "phone": "+919226042285", "city": "Durgapur", "state": "West Bengal"}
+{"customer_id": "CUS_000348", "merchant_id": "MER_000002", "name": "Meera Patel", "email": "meera.patel170@rediffmail.com", "phone": "+917942725534", "city": "Thrissur", "state": "Kerala"}
+{"customer_id": "CUS_000349", "merchant_id": "MER_000002", "name": "Meera Chauhan", "email": "meera.chauhan546@outlook.com", "phone": "+917447520416", "city": "Kozhikode", "state": "Kerala"}
+{"customer_id": "CUS_000350", "merchant_id": "MER_000003", "name": "Rajesh Malhotra", "email": "rajesh.malhotra139@hotmail.com", "phone": "+916397773877", "city": "Hyderabad", "state": "Telangana"}
+{"customer_id": "CUS_000351", "merchant_id": "MER_000002", "name": "Gaurav Khan", "email": "gaurav.khan849@yahoo.com", "phone": "+919625552311", "city": "Rohini", "state": "Delhi"}
+{"customer_id": "CUS_000352", "merchant_id": "MER_000002", "name": "Priya Reddy", "email": "priya.reddy78@protonmail.com", "phone": "+916532557724", "city": "Kota", "state": "Rajasthan"}
+{"customer_id": "CUS_000353", "merchant_id": "MER_000005", "name": "Rahul Patil", "email": "rahul.patil336@rediffmail.com", "phone": "+916931221434", "city": "Siliguri", "state": "West Bengal"}
+{"customer_id": "CUS_000354", "merchant_id": "MER_000001", "name": "Varun Patel", "email": "varun.patel408@yahoo.com", "phone": "+919985673417", "city": "Belgaum", "state": "Karnataka"}
+{"customer_id": "CUS_000355", "merchant_id": "MER_000002", "name": "Yash Malhotra", "email": "yash.malhotra346@rediffmail.com", "phone": "+917707890457", "city": "Kanpur", "state": "Uttar Pradesh"}
+{"customer_id": "CUS_000356", "merchant_id": "MER_000004", "name": "Sanjay Chauhan", "email": "sanjay.chauhan642@hotmail.com", "phone": "+916233398648", "city": "Mumbai", "state": "Maharashtra"}
+{"customer_id": "CUS_000357", "merchant_id": "MER_000002", "name": "Tanvi Singh", "email": "tanvi.singh208@protonmail.com", "phone": "+917797929178", "city": "Thane", "state": "Maharashtra"}
+{"customer_id": "CUS_000358", "merchant_id": "MER_000003", "name": "Jaya Malhotra", "email": "jaya.malhotra257@gmail.com", "phone": "+918813510897", "city": "Hubli", "state": "Karnataka"}
+{"customer_id": "CUS_000359", "merchant_id": "MER_000002", "name": "Anita Rao", "email": "anita.rao440@protonmail.com", "phone": "+916855590022", "city": "Surat", "state": "Gujarat"}
+{"customer_id": "CUS_000360", "merchant_id": "MER_000001", "name": "Aarav Joshi", "email": "aarav.joshi136@rediffmail.com", "phone": "+917657749020", "city": "Kolkata", "state": "West Bengal"}
+{"customer_id": "CUS_000361", "merchant_id": "MER_000004", "name": "Aditi Agarwal", "email": "aditi.agarwal881@hotmail.com", "phone": "+917612926731", "city": "Lucknow", "state": "Uttar Pradesh"}
+{"customer_id": "CUS_000362", "merchant_id": "MER_000001", "name": "Neha Pillai", "email": "neha.pillai106@outlook.com", "phone": "+918421322967", "city": "Bangalore", "state": "Karnataka"}
+{"customer_id": "CUS_000363", "merchant_id": "MER_000002", "name": "Siddharth Garg", "email": "siddharth.garg544@rediffmail.com", "phone": "+916755325292", "city": "New Delhi", "state": "Delhi"}
+{"customer_id": "CUS_000364", "merchant_id": "MER_000002", "name": "Tanvi Patel", "email": "tanvi.patel942@hotmail.com", "phone": "+919333264702", "city": "Coimbatore", "state": "Tamil Nadu"}
+{"customer_id": "CUS_000365", "merchant_id": "MER_000001", "name": "Deepak Garg", "email": "deepak.garg748@hotmail.com", "phone": "+918561052655", "city": "Belgaum", "state": "Karnataka"}
+{"customer_id": "CUS_000366", "merchant_id": "MER_000003", "name": "Geeta Khan", "email": "geeta.khan255@rediffmail.com", "phone": "+918936412291", "city": "Ahmedabad", "state": "Gujarat"}
+{"customer_id": "CUS_000367", "merchant_id": "MER_000001", "name": "Rakesh Joshi", "email": "rakesh.joshi766@hotmail.com", "phone": "+918793819512", "city": "Warangal", "state": "Telangana"}
+{"customer_id": "CUS_000368", "merchant_id": "MER_000001", "name": "Nikhil Srivastava", "email": "nikhil.srivastava247@hotmail.com", "phone": "+916667243311", "city": "Jaipur", "state": "Rajasthan"}
+{"customer_id": "CUS_000369", "merchant_id": "MER_000001", "name": "Shivani Mukherjee", "email": "shivani.mukherjee882@rediffmail.com", "phone": "+919492358645", "city": "Saket", "state": "Delhi"}
+{"customer_id": "CUS_000370", "merchant_id": "MER_000005", "name": "Kavita Sinha", "email": "kavita.sinha602@gmail.com", "phone": "+916381519299", "city": "Bangalore", "state": "Karnataka"}
+{"customer_id": "CUS_000371", "merchant_id": "MER_000002", "name": "Ananya Chauhan", "email": "ananya.chauhan294@protonmail.com", "phone": "+919554810443", "city": "Ajmer", "state": "Rajasthan"}
+{"customer_id": "CUS_000372", "merchant_id": "MER_000004", "name": "Bharti Verma", "email": "bharti.verma285@gmail.com", "phone": "+918184848753", "city": "Warangal", "state": "Telangana"}
+{"customer_id": "CUS_000373", "merchant_id": "MER_000005", "name": "Meera Goyal", "email": "meera.goyal401@rediffmail.com", "phone": "+916433041955", "city": "Nizamabad", "state": "Telangana"}
+{"customer_id": "CUS_000374", "merchant_id": "MER_000004", "name": "Nikhil Chauhan", "email": "nikhil.chauhan947@hotmail.com", "phone": "+916586804311", "city": "Chennai", "state": "Tamil Nadu"}
+{"customer_id": "CUS_000375", "merchant_id": "MER_000005", "name": "Anjali Mishra", "email": "anjali.mishra13@protonmail.com", "phone": "+917853229478", "city": "New Delhi", "state": "Delhi"}
+{"customer_id": "CUS_000376", "merchant_id": "MER_000001", "name": "Jaya Srivastava", "email": "jaya.srivastava530@protonmail.com", "phone": "+918279275105", "city": "Varanasi", "state": "Uttar Pradesh"}
+{"customer_id": "CUS_000377", "merchant_id": "MER_000003", "name": "Gaurav Malhotra", "email": "gaurav.malhotra344@hotmail.com", "phone": "+918662484182", "city": "Bangalore", "state": "Karnataka"}
+{"customer_id": "CUS_000378", "merchant_id": "MER_000001", "name": "Pradeep Chopra", "email": "pradeep.chopra524@outlook.com", "phone": "+916636452156", "city": "Siliguri", "state": "West Bengal"}
+{"customer_id": "CUS_000379", "merchant_id": "MER_000005", "name": "Karan Patil", "email": "karan.patil792@gmail.com", "phone": "+916345247378", "city": "Rohini", "state": "Delhi"}
+{"customer_id": "CUS_000380", "merchant_id": "MER_000005", "name": "Aarav Bhatia", "email": "aarav.bhatia48@hotmail.com", "phone": "+918511221078", "city": "Pune", "state": "Maharashtra"}
+{"customer_id": "CUS_000381", "merchant_id": "MER_000002", "name": "Kavita Bhatia", "email": "kavita.bhatia230@outlook.com", "phone": "+917546952114", "city": "Karimnagar", "state": "Telangana"}
+{"customer_id": "CUS_000382", "merchant_id": "MER_000003", "name": "Priya Chopra", "email": "priya.chopra123@rediffmail.com", "phone": "+916292569534", "city": "Kozhikode", "state": "Kerala"}
+{"customer_id": "CUS_000383", "merchant_id": "MER_000002", "name": "Ananya Rao", "email": "ananya.rao887@outlook.com", "phone": "+918451436694", "city": "Mangalore", "state": "Karnataka"}
+{"customer_id": "CUS_000384", "merchant_id": "MER_000001", "name": "Varun Agarwal", "email": "varun.agarwal299@rediffmail.com", "phone": "+918894113665", "city": "Noida", "state": "Uttar Pradesh"}
+{"customer_id": "CUS_000385", "merchant_id": "MER_000005", "name": "Nisha Singh", "email": "nisha.singh996@hotmail.com", "phone": "+917886476517", "city": "Varanasi", "state": "Uttar Pradesh"}
+{"customer_id": "CUS_000386", "merchant_id": "MER_000005", "name": "Nisha Goyal", "email": "nisha.goyal25@yahoo.com", "phone": "+918782837348", "city": "Thane", "state": "Maharashtra"}
+{"customer_id": "CUS_000387", "merchant_id": "MER_000001", "name": "Sandeep Agarwal", "email": "sandeep.agarwal107@yahoo.com", "phone": "+917550773824", "city": "Udaipur", "state": "Rajasthan"}
+{"customer_id": "CUS_000388", "merchant_id": "MER_000004", "name": "Anjali Goyal", "email": "anjali.goyal45@yahoo.com", "phone": "+919852528635", "city": "Ahmedabad", "state": "Gujarat"}
+{"customer_id": "CUS_000389", "merchant_id": "MER_000003", "name": "Varun Das", "email": "varun.das518@yahoo.com", "phone": "+919180348617", "city": "Kochi", "state": "Kerala"}
+{"customer_id": "CUS_000390", "merchant_id": "MER_000005", "name": "Anjali Saxena", "email": "anjali.saxena299@outlook.com", "phone": "+918959870518", "city": "Dwarka", "state": "Delhi"}
+{"customer_id": "CUS_000391", "merchant_id": "MER_000004", "name": "Sachin Mukherjee", "email": "sachin.mukherjee240@gmail.com", "phone": "+917246148980", "city": "Durgapur", "state": "West Bengal"}
+{"customer_id": "CUS_000392", "merchant_id": "MER_000005", "name": "Devi Goyal", "email": "devi.goyal461@hotmail.com", "phone": "+918536489528", "city": "Mysore", "state": "Karnataka"}
+{"customer_id": "CUS_000393", "merchant_id": "MER_000001", "name": "Seema Joshi", "email": "seema.joshi475@outlook.com", "phone": "+916197088689", "city": "Durgapur", "state": "West Bengal"}
+{"customer_id": "CUS_000394", "merchant_id": "MER_000002", "name": "Rakesh Bhatia", "email": "rakesh.bhatia152@gmail.com", "phone": "+917481975879", "city": "Madurai", "state": "Tamil Nadu"}
+{"customer_id": "CUS_000395", "merchant_id": "MER_000004", "name": "Anita Mishra", "email": "anita.mishra32@hotmail.com", "phone": "+919696950800", "city": "Surat", "state": "Gujarat"}
+{"customer_id": "CUS_000396", "merchant_id": "MER_000005", "name": "Nisha Deshmukh", "email": "nisha.deshmukh824@yahoo.com", "phone": "+916112838650", "city": "Kolkata", "state": "West Bengal"}
+{"customer_id": "CUS_000397", "merchant_id": "MER_000001", "name": "Nandini Garg", "email": "nandini.garg382@protonmail.com", "phone": "+916725265416", "city": "Salem", "state": "Tamil Nadu"}
+{"customer_id": "CUS_000398", "merchant_id": "MER_000005", "name": "Pradeep Chopra", "email": "pradeep.chopra203@protonmail.com", "phone": "+919968977829", "city": "Mumbai", "state": "Maharashtra"}
+{"customer_id": "CUS_000399", "merchant_id": "MER_000002", "name": "Chandan Nair", "email": "chandan.nair965@hotmail.com", "phone": "+916280377032", "city": "Bangalore", "state": "Karnataka"}
+{"customer_id": "CUS_000400", "merchant_id": "MER_000005", "name": "Swati Rao", "email": "swati.rao392@protonmail.com", "phone": "+919285550328", "city": "Kolkata", "state": "West Bengal"}
+{"customer_id": "CUS_000401", "merchant_id": "MER_000003", "name": "Mohan Iyer", "email": "mohan.iyer457@yahoo.com", "phone": "+916759391912", "city": "Vadodara", "state": "Gujarat"}
+{"customer_id": "CUS_000402", "merchant_id": "MER_000005", "name": "Nisha Mehta", "email": "nisha.mehta904@rediffmail.com", "phone": "+919165475776", "city": "Siliguri", "state": "West Bengal"}
+{"customer_id": "CUS_000403", "merchant_id": "MER_000001", "name": "Rahul Pillai", "email": "rahul.pillai205@protonmail.com", "phone": "+917777267364", "city": "Saket", "state": "Delhi"}
+{"customer_id": "CUS_000404", "merchant_id": "MER_000005", "name": "Aditya Pillai", "email": "aditya.pillai558@hotmail.com", "phone": "+918707363258", "city": "Agra", "state": "Uttar Pradesh"}
+{"customer_id": "CUS_000405", "merchant_id": "MER_000005", "name": "Sachin Pillai", "email": "sachin.pillai27@outlook.com", "phone": "+917131464348", "city": "Surat", "state": "Gujarat"}
+{"customer_id": "CUS_000406", "merchant_id": "MER_000003", "name": "Anjali Sinha", "email": "anjali.sinha786@rediffmail.com", "phone": "+917271395839", "city": "Nizamabad", "state": "Telangana"}
+{"customer_id": "CUS_000407", "merchant_id": "MER_000001", "name": "Nisha Khan", "email": "nisha.khan836@protonmail.com", "phone": "+916920392140", "city": "Gandhinagar", "state": "Gujarat"}
+{"customer_id": "CUS_000408", "merchant_id": "MER_000002", "name": "Simran Patel", "email": "simran.patel243@rediffmail.com", "phone": "+918965661638", "city": "Dwarka", "state": "Delhi"}
+{"customer_id": "CUS_000409", "merchant_id": "MER_000003", "name": "Akshay Patel", "email": "akshay.patel577@yahoo.com", "phone": "+919682101860", "city": "Thiruvananthapuram", "state": "Kerala"}
+{"customer_id": "CUS_000410", "merchant_id": "MER_000003", "name": "Kavita Srivastava", "email": "kavita.srivastava58@yahoo.com", "phone": "+917121397518", "city": "Mumbai", "state": "Maharashtra"}
+{"customer_id": "CUS_000411", "merchant_id": "MER_000005", "name": "Vinod Agarwal", "email": "vinod.agarwal207@yahoo.com", "phone": "+918869805921", "city": "Varanasi", "state": "Uttar Pradesh"}
+{"customer_id": "CUS_000412", "merchant_id": "MER_000002", "name": "Sachin Chauhan", "email": "sachin.chauhan601@protonmail.com", "phone": "+917931469703", "city": "Pune", "state": "Maharashtra"}
+{"customer_id": "CUS_000413", "merchant_id": "MER_000001", "name": "Shivani Chopra", "email": "shivani.chopra601@gmail.com", "phone": "+918424017866", "city": "Agra", "state": "Uttar Pradesh"}
+{"customer_id": "CUS_000414", "merchant_id": "MER_000003", "name": "Geeta Gupta", "email": "geeta.gupta665@outlook.com", "phone": "+917859331874", "city": "Kota", "state": "Rajasthan"}
+{"customer_id": "CUS_000415", "merchant_id": "MER_000005", "name": "Seema Kapoor", "email": "seema.kapoor388@outlook.com", "phone": "+918236739271", "city": "Thiruvananthapuram", "state": "Kerala"}
+{"customer_id": "CUS_000416", "merchant_id": "MER_000002", "name": "Aarav Rao", "email": "aarav.rao187@rediffmail.com", "phone": "+918968449816", "city": "Kochi", "state": "Kerala"}
+{"customer_id": "CUS_000417", "merchant_id": "MER_000005", "name": "Nandini Deshmukh", "email": "nandini.deshmukh340@protonmail.com", "phone": "+916355546183", "city": "Howrah", "state": "West Bengal"}
+{"customer_id": "CUS_000418", "merchant_id": "MER_000003", "name": "Rohit Gupta", "email": "rohit.gupta458@gmail.com", "phone": "+918325146786", "city": "Hubli", "state": "Karnataka"}
+{"customer_id": "CUS_000419", "merchant_id": "MER_000002", "name": "Arjun Patel", "email": "arjun.patel738@gmail.com", "phone": "+916514396801", "city": "Ahmedabad", "state": "Gujarat"}
+{"customer_id": "CUS_000420", "merchant_id": "MER_000004", "name": "Sunita Gupta", "email": "sunita.gupta903@hotmail.com", "phone": "+918686288768", "city": "Kota", "state": "Rajasthan"}
+{"customer_id": "CUS_000421", "merchant_id": "MER_000004", "name": "Deepak Sinha", "email": "deepak.sinha167@hotmail.com", "phone": "+916958128631", "city": "Thiruvananthapuram", "state": "Kerala"}
+{"customer_id": "CUS_000422", "merchant_id": "MER_000001", "name": "Rajesh Bansal", "email": "rajesh.bansal975@gmail.com", "phone": "+916467013765", "city": "Kanpur", "state": "Uttar Pradesh"}
+{"customer_id": "CUS_000423", "merchant_id": "MER_000002", "name": "Siddharth Gupta", "email": "siddharth.gupta965@gmail.com", "phone": "+918737835435", "city": "Belgaum", "state": "Karnataka"}
+{"customer_id": "CUS_000424", "merchant_id": "MER_000005", "name": "Vinod Bansal", "email": "vinod.bansal622@hotmail.com", "phone": "+917157505040", "city": "Jodhpur", "state": "Rajasthan"}
+{"customer_id": "CUS_000425", "merchant_id": "MER_000001", "name": "Sandeep Joshi", "email": "sandeep.joshi714@rediffmail.com", "phone": "+918809311588", "city": "Salem", "state": "Tamil Nadu"}
+{"customer_id": "CUS_000426", "merchant_id": "MER_000003", "name": "Rakesh Khan", "email": "rakesh.khan403@rediffmail.com", "phone": "+919264915937", "city": "Bangalore", "state": "Karnataka"}
+{"customer_id": "CUS_000427", "merchant_id": "MER_000001", "name": "Shivani Agarwal", "email": "shivani.agarwal302@protonmail.com", "phone": "+919314399191", "city": "Jaipur", "state": "Rajasthan"}
+{"customer_id": "CUS_000428", "merchant_id": "MER_000001", "name": "Akshay Joshi", "email": "akshay.joshi84@hotmail.com", "phone": "+916431091936", "city": "Rohini", "state": "Delhi"}
+{"customer_id": "CUS_000429", "merchant_id": "MER_000004", "name": "Vikram Srivastava", "email": "vikram.srivastava658@rediffmail.com", "phone": "+919298514700", "city": "Ahmedabad", "state": "Gujarat"}
+{"customer_id": "CUS_000430", "merchant_id": "MER_000003", "name": "Siddharth Patil", "email": "siddharth.patil46@outlook.com", "phone": "+919599352182", "city": "Saket", "state": "Delhi"}
+{"customer_id": "CUS_000431", "merchant_id": "MER_000003", "name": "Nandini Malhotra", "email": "nandini.malhotra155@protonmail.com", "phone": "+916192027526", "city": "Kochi", "state": "Kerala"}
+{"customer_id": "CUS_000432", "merchant_id": "MER_000003", "name": "Sunil Kapoor", "email": "sunil.kapoor861@hotmail.com", "phone": "+919675004218", "city": "Hyderabad", "state": "Telangana"}
+{"customer_id": "CUS_000433", "merchant_id": "MER_000004", "name": "Nikhil Sinha", "email": "nikhil.sinha405@protonmail.com", "phone": "+916639127345", "city": "Ahmedabad", "state": "Gujarat"}
+{"customer_id": "CUS_000434", "merchant_id": "MER_000005", "name": "Harsh Dutta", "email": "harsh.dutta972@yahoo.com", "phone": "+917968078090", "city": "Howrah", "state": "West Bengal"}
+{"customer_id": "CUS_000435", "merchant_id": "MER_000002", "name": "Gaurav Bhatia", "email": "gaurav.bhatia700@hotmail.com", "phone": "+917983221403", "city": "Jaipur", "state": "Rajasthan"}
+{"customer_id": "CUS_000436", "merchant_id": "MER_000002", "name": "Pradeep Mukherjee", "email": "pradeep.mukherjee398@rediffmail.com", "phone": "+919692763677", "city": "Bangalore", "state": "Karnataka"}
+{"customer_id": "CUS_000437", "merchant_id": "MER_000003", "name": "Rahul Tiwari", "email": "rahul.tiwari806@protonmail.com", "phone": "+919220816186", "city": "Kolkata", "state": "West Bengal"}
+{"customer_id": "CUS_000438", "merchant_id": "MER_000004", "name": "Isha Goyal", "email": "isha.goyal948@gmail.com", "phone": "+916943687944", "city": "Kochi", "state": "Kerala"}
+{"customer_id": "CUS_000439", "merchant_id": "MER_000003", "name": "Sapna Reddy", "email": "sapna.reddy671@hotmail.com", "phone": "+919140228456", "city": "Rajkot", "state": "Gujarat"}
+{"customer_id": "CUS_000440", "merchant_id": "MER_000002", "name": "Rahul Rao", "email": "rahul.rao624@protonmail.com", "phone": "+919141642429", "city": "Janakpuri", "state": "Delhi"}
+{"customer_id": "CUS_000441", "merchant_id": "MER_000004", "name": "Sandeep Khan", "email": "sandeep.khan943@outlook.com", "phone": "+918121724902", "city": "Thane", "state": "Maharashtra"}
+{"customer_id": "CUS_000442", "merchant_id": "MER_000003", "name": "Rakesh Mishra", "email": "rakesh.mishra879@protonmail.com", "phone": "+916344767409", "city": "Rajkot", "state": "Gujarat"}
+{"customer_id": "CUS_000443", "merchant_id": "MER_000002", "name": "Rakesh Sharma", "email": "rakesh.sharma747@hotmail.com", "phone": "+916301794412", "city": "Kanpur", "state": "Uttar Pradesh"}
+{"customer_id": "CUS_000444", "merchant_id": "MER_000004", "name": "Mohan Reddy", "email": "mohan.reddy889@outlook.com", "phone": "+916653266624", "city": "Asansol", "state": "West Bengal"}
+{"customer_id": "CUS_000445", "merchant_id": "MER_000002", "name": "Arjun Mishra", "email": "arjun.mishra139@rediffmail.com", "phone": "+916286549068", "city": "Karimnagar", "state": "Telangana"}
+{"customer_id": "CUS_000446", "merchant_id": "MER_000002", "name": "Manish Chauhan", "email": "manish.chauhan468@gmail.com", "phone": "+918856594938", "city": "Chennai", "state": "Tamil Nadu"}
+{"customer_id": "CUS_000447", "merchant_id": "MER_000002", "name": "Rahul Patil", "email": "rahul.patil407@protonmail.com", "phone": "+916831405402", "city": "Asansol", "state": "West Bengal"}
+{"customer_id": "CUS_000448", "merchant_id": "MER_000001", "name": "Nikhil Patil", "email": "nikhil.patil457@yahoo.com", "phone": "+919730157871", "city": "Asansol", "state": "West Bengal"}
+{"customer_id": "CUS_000449", "merchant_id": "MER_000005", "name": "Sapna Patel", "email": "sapna.patel767@protonmail.com", "phone": "+916406090918", "city": "Rohini", "state": "Delhi"}
+{"customer_id": "CUS_000450", "merchant_id": "MER_000001", "name": "Simran Chauhan", "email": "simran.chauhan799@yahoo.com", "phone": "+917795118868", "city": "Janakpuri", "state": "Delhi"}
+{"customer_id": "CUS_000451", "merchant_id": "MER_000002", "name": "Meera Malhotra", "email": "meera.malhotra21@protonmail.com", "phone": "+916609057994", "city": "Ajmer", "state": "Rajasthan"}
+{"customer_id": "CUS_000452", "merchant_id": "MER_000002", "name": "Kavita Agarwal", "email": "kavita.agarwal623@outlook.com", "phone": "+918555059083", "city": "Madurai", "state": "Tamil Nadu"}
+{"customer_id": "CUS_000453", "merchant_id": "MER_000004", "name": "Sapna Singh", "email": "sapna.singh478@outlook.com", "phone": "+919727588309", "city": "Surat", "state": "Gujarat"}
+{"customer_id": "CUS_000454", "merchant_id": "MER_000001", "name": "Aarav Thakur", "email": "aarav.thakur663@rediffmail.com", "phone": "+918420486085", "city": "Varanasi", "state": "Uttar Pradesh"}
+{"customer_id": "CUS_000455", "merchant_id": "MER_000001", "name": "Vinod Chopra", "email": "vinod.chopra656@outlook.com", "phone": "+918380404354", "city": "Kanpur", "state": "Uttar Pradesh"}
+{"customer_id": "CUS_000456", "merchant_id": "MER_000003", "name": "Lakshmi Goyal", "email": "lakshmi.goyal922@gmail.com", "phone": "+919809239039", "city": "Warangal", "state": "Telangana"}
+{"customer_id": "CUS_000457", "merchant_id": "MER_000003", "name": "Geeta Bansal", "email": "geeta.bansal266@hotmail.com", "phone": "+919516907018", "city": "Durgapur", "state": "West Bengal"}
+{"customer_id": "CUS_000458", "merchant_id": "MER_000001", "name": "Lakshmi Nair", "email": "lakshmi.nair654@hotmail.com", "phone": "+918644725181", "city": "Tiruchirappalli", "state": "Tamil Nadu"}
+{"customer_id": "CUS_000459", "merchant_id": "MER_000003", "name": "Karan Yadav", "email": "karan.yadav100@hotmail.com", "phone": "+917895555607", "city": "Rohini", "state": "Delhi"}
+{"customer_id": "CUS_000460", "merchant_id": "MER_000003", "name": "Krishna Nair", "email": "krishna.nair364@yahoo.com", "phone": "+918551478978", "city": "Mysore", "state": "Karnataka"}
+{"customer_id": "CUS_000461", "merchant_id": "MER_000003", "name": "Shruti Kumar", "email": "shruti.kumar475@gmail.com", "phone": "+919157635190", "city": "Kozhikode", "state": "Kerala"}
+{"customer_id": "CUS_000462", "merchant_id": "MER_000005", "name": "Arun Sinha", "email": "arun.sinha123@protonmail.com", "phone": "+919668909764", "city": "Tiruchirappalli", "state": "Tamil Nadu"}
+{"customer_id": "CUS_000463", "merchant_id": "MER_000003", "name": "Sunil Chauhan", "email": "sunil.chauhan206@outlook.com", "phone": "+919711392447", "city": "Dwarka", "state": "Delhi"}
+{"customer_id": "CUS_000464", "merchant_id": "MER_000004", "name": "Harsh Mukherjee", "email": "harsh.mukherjee500@outlook.com", "phone": "+917436525794", "city": "New Delhi", "state": "Delhi"}
+{"customer_id": "CUS_000465", "merchant_id": "MER_000001", "name": "Aarav Sharma", "email": "aarav.sharma780@yahoo.com", "phone": "+917625679392", "city": "Surat", "state": "Gujarat"}
+{"customer_id": "CUS_000466", "merchant_id": "MER_000001", "name": "Gaurav Saxena", "email": "gaurav.saxena440@hotmail.com", "phone": "+919105013454", "city": "Kota", "state": "Rajasthan"}
+{"customer_id": "CUS_000467", "merchant_id": "MER_000001", "name": "Manish Patil", "email": "manish.patil776@rediffmail.com", "phone": "+917119237294", "city": "Nagpur", "state": "Maharashtra"}
+{"customer_id": "CUS_000468", "merchant_id": "MER_000001", "name": "Nisha Kapoor", "email": "nisha.kapoor133@gmail.com", "phone": "+919640453426", "city": "Kanpur", "state": "Uttar Pradesh"}
+{"customer_id": "CUS_000469", "merchant_id": "MER_000005", "name": "Ravi Gupta", "email": "ravi.gupta306@outlook.com", "phone": "+919881503560", "city": "Bangalore", "state": "Karnataka"}
+{"customer_id": "CUS_000470", "merchant_id": "MER_000005", "name": "Sanjay Saxena", "email": "sanjay.saxena924@hotmail.com", "phone": "+918905430477", "city": "Rohini", "state": "Delhi"}
+{"customer_id": "CUS_000471", "merchant_id": "MER_000002", "name": "Karan Rao", "email": "karan.rao230@protonmail.com", "phone": "+917326763783", "city": "Pune", "state": "Maharashtra"}
+{"customer_id": "CUS_000472", "merchant_id": "MER_000001", "name": "Karan Dutta", "email": "karan.dutta385@protonmail.com", "phone": "+918928123020", "city": "Lucknow", "state": "Uttar Pradesh"}
+{"customer_id": "CUS_000473", "merchant_id": "MER_000005", "name": "Anita Chauhan", "email": "anita.chauhan50@protonmail.com", "phone": "+916547509357", "city": "Bangalore", "state": "Karnataka"}
+{"customer_id": "CUS_000474", "merchant_id": "MER_000004", "name": "Siddharth Dutta", "email": "siddharth.dutta486@protonmail.com", "phone": "+917320648482", "city": "Nizamabad", "state": "Telangana"}
+{"customer_id": "CUS_000475", "merchant_id": "MER_000001", "name": "Rakesh Reddy", "email": "rakesh.reddy277@rediffmail.com", "phone": "+917549710722", "city": "Belgaum", "state": "Karnataka"}
+{"customer_id": "CUS_000476", "merchant_id": "MER_000001", "name": "Divya Mehta", "email": "divya.mehta510@yahoo.com", "phone": "+917935327024", "city": "Bangalore", "state": "Karnataka"}
+{"customer_id": "CUS_000477", "merchant_id": "MER_000003", "name": "Manish Patel", "email": "manish.patel165@gmail.com", "phone": "+919323009714", "city": "Udaipur", "state": "Rajasthan"}
+{"customer_id": "CUS_000478", "merchant_id": "MER_000004", "name": "Sandeep Khan", "email": "sandeep.khan688@gmail.com", "phone": "+916996823706", "city": "Mumbai", "state": "Maharashtra"}
+{"customer_id": "CUS_000479", "merchant_id": "MER_000005", "name": "Yash Goyal", "email": "yash.goyal77@protonmail.com", "phone": "+916374762050", "city": "Belgaum", "state": "Karnataka"}
+{"customer_id": "CUS_000480", "merchant_id": "MER_000002", "name": "Varun Mehta", "email": "varun.mehta52@gmail.com", "phone": "+917142353230", "city": "Rajkot", "state": "Gujarat"}
+{"customer_id": "CUS_000481", "merchant_id": "MER_000003", "name": "Shivani Mukherjee", "email": "shivani.mukherjee98@gmail.com", "phone": "+916248599901", "city": "Jaipur", "state": "Rajasthan"}
+{"customer_id": "CUS_000482", "merchant_id": "MER_000002", "name": "Sandeep Patel", "email": "sandeep.patel275@protonmail.com", "phone": "+916500099988", "city": "Asansol", "state": "West Bengal"}
+{"customer_id": "CUS_000483", "merchant_id": "MER_000003", "name": "Krishna Dutta", "email": "krishna.dutta986@hotmail.com", "phone": "+918997335002", "city": "Kota", "state": "Rajasthan"}
+{"customer_id": "CUS_000484", "merchant_id": "MER_000004", "name": "Vinod Reddy", "email": "vinod.reddy136@protonmail.com", "phone": "+916271149511", "city": "New Delhi", "state": "Delhi"}
+{"customer_id": "CUS_000485", "merchant_id": "MER_000001", "name": "Sunita Sinha", "email": "sunita.sinha186@rediffmail.com", "phone": "+919936621291", "city": "Thrissur", "state": "Kerala"}
+{"customer_id": "CUS_000486", "merchant_id": "MER_000003", "name": "Akshay Garg", "email": "akshay.garg116@hotmail.com", "phone": "+919149362414", "city": "Siliguri", "state": "West Bengal"}
+{"customer_id": "CUS_000487", "merchant_id": "MER_000001", "name": "Pradeep Mukherjee", "email": "pradeep.mukherjee786@protonmail.com", "phone": "+917819239897", "city": "Nashik", "state": "Maharashtra"}
+{"customer_id": "CUS_000488", "merchant_id": "MER_000003", "name": "Deepak Saxena", "email": "deepak.saxena355@protonmail.com", "phone": "+919259616499", "city": "Salem", "state": "Tamil Nadu"}
+{"customer_id": "CUS_000489", "merchant_id": "MER_000005", "name": "Anita Agarwal", "email": "anita.agarwal870@hotmail.com", "phone": "+919277601056", "city": "Janakpuri", "state": "Delhi"}
+{"customer_id": "CUS_000490", "merchant_id": "MER_000001", "name": "Vivek Mukherjee", "email": "vivek.mukherjee994@outlook.com", "phone": "+916644311226", "city": "Madurai", "state": "Tamil Nadu"}
+{"customer_id": "CUS_000491", "merchant_id": "MER_000002", "name": "Siddharth Rao", "email": "siddharth.rao471@hotmail.com", "phone": "+919194510603", "city": "Chennai", "state": "Tamil Nadu"}
+{"customer_id": "CUS_000492", "merchant_id": "MER_000004", "name": "Usha Mukherjee", "email": "usha.mukherjee764@protonmail.com", "phone": "+916210212429", "city": "Mangalore", "state": "Karnataka"}
+{"customer_id": "CUS_000493", "merchant_id": "MER_000004", "name": "Sunil Bhatia", "email": "sunil.bhatia846@gmail.com", "phone": "+918645823493", "city": "Hyderabad", "state": "Telangana"}
+{"customer_id": "CUS_000494", "merchant_id": "MER_000005", "name": "Meera Singh", "email": "meera.singh846@gmail.com", "phone": "+917587972689", "city": "Kanpur", "state": "Uttar Pradesh"}
+{"customer_id": "CUS_000495", "merchant_id": "MER_000003", "name": "Vikram Patil", "email": "vikram.patil100@protonmail.com", "phone": "+917102358958", "city": "Kolkata", "state": "West Bengal"}
+{"customer_id": "CUS_000496", "merchant_id": "MER_000003", "name": "Seema Mehta", "email": "seema.mehta719@gmail.com", "phone": "+916276260482", "city": "Nizamabad", "state": "Telangana"}
+{"customer_id": "CUS_000497", "merchant_id": "MER_000004", "name": "Geeta Reddy", "email": "geeta.reddy626@yahoo.com", "phone": "+917229649816", "city": "Hubli", "state": "Karnataka"}
+{"customer_id": "CUS_000498", "merchant_id": "MER_000004", "name": "Mohan Singh", "email": "mohan.singh111@hotmail.com", "phone": "+916779936769", "city": "Madurai", "state": "Tamil Nadu"}
+{"customer_id": "CUS_000499", "merchant_id": "MER_000005", "name": "Divya Sharma", "email": "divya.sharma980@rediffmail.com", "phone": "+917635613177", "city": "Asansol", "state": "West Bengal"}
+{"customer_id": "CUS_000500", "merchant_id": "MER_000001", "name": "Anita Yadav", "email": "anita.yadav495@rediffmail.com", "phone": "+917842833609", "city": "Ajmer", "state": "Rajasthan"}

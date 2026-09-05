@@ -1,0 +1,84 @@
+{
+  "task": "exception_classification",
+  "target": "primary_label",
+  "classes": [
+    "AMOUNT_DISCREPANCY",
+    "DESCRIPTION_MISMATCH",
+    "DUPLICATE",
+    "FORMAT_MISMATCH",
+    "MISSING_RECORD",
+    "TIMING_DIFFERENCE",
+    "WRONG_REFERENCE"
+  ],
+  "class_to_index": {
+    "AMOUNT_DISCREPANCY": 0,
+    "DESCRIPTION_MISMATCH": 1,
+    "DUPLICATE": 2,
+    "FORMAT_MISMATCH": 3,
+    "MISSING_RECORD": 4,
+    "TIMING_DIFFERENCE": 5,
+    "WRONG_REFERENCE": 6
+  },
+  "index_to_class": {
+    "0": "AMOUNT_DISCREPANCY",
+    "1": "DESCRIPTION_MISMATCH",
+    "2": "DUPLICATE",
+    "3": "FORMAT_MISMATCH",
+    "4": "MISSING_RECORD",
+    "5": "TIMING_DIFFERENCE",
+    "6": "WRONG_REFERENCE"
+  },
+  "features": [
+    "entity_type",
+    "affected_field",
+    "value_pair_present",
+    "value_exact_match",
+    "value_normalized_id_match",
+    "value_str_similarity",
+    "value_token_overlap",
+    "value_numeric_diff",
+    "value_numeric_abs_diff",
+    "value_numeric_rel_diff",
+    "value_is_numeric_pair",
+    "value_date_diff_days",
+    "value_is_date_pair",
+    "entity_amount",
+    "fee_amount_context",
+    "tax_amount_context",
+    "refund_amount_context",
+    "adjustment_amount_context",
+    "diff_to_adjustment_ratio"
+  ],
+  "numeric_features": [
+    "value_pair_present",
+    "value_exact_match",
+    "value_normalized_id_match",
+    "value_str_similarity",
+    "value_token_overlap",
+    "value_numeric_diff",
+    "value_numeric_abs_diff",
+    "value_numeric_rel_diff",
+    "value_is_numeric_pair",
+    "value_date_diff_days",
+    "value_is_date_pair",
+    "entity_amount",
+    "fee_amount_context",
+    "tax_amount_context",
+    "refund_amount_context",
+    "adjustment_amount_context",
+    "diff_to_adjustment_ratio"
+  ],
+  "categorical_features": [
+    "entity_type",
+    "affected_field"
+  ],
+  "excluded_columns": [
+    "case_id",
+    "affected_entity_id",
+    "primary_label",
+    "fine_label"
+  ],
+  "constant_features_detected": [],
+  "duplicate_feature_pairs": [],
+  "best_model": "Logistic Regression"
+}

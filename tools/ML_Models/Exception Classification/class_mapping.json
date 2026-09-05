@@ -1,0 +1,29 @@
+{
+  "classes": [
+    "AMOUNT_DISCREPANCY",
+    "DESCRIPTION_MISMATCH",
+    "DUPLICATE",
+    "FORMAT_MISMATCH",
+    "MISSING_RECORD",
+    "TIMING_DIFFERENCE",
+    "WRONG_REFERENCE"
+  ],
+  "class_to_index": {
+    "AMOUNT_DISCREPANCY": 0,
+    "DESCRIPTION_MISMATCH": 1,
+    "DUPLICATE": 2,
+    "FORMAT_MISMATCH": 3,
+    "MISSING_RECORD": 4,
+    "TIMING_DIFFERENCE": 5,
+    "WRONG_REFERENCE": 6
+  },
+  "index_to_class": {
+    "0": "AMOUNT_DISCREPANCY",
+    "1": "DESCRIPTION_MISMATCH",
+    "2": "DUPLICATE",
+    "3": "FORMAT_MISMATCH",
+    "4": "MISSING_RECORD",
+    "5": "TIMING_DIFFERENCE",
+    "6": "WRONG_REFERENCE"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "status": "READY_FOR_RECONCILIATION_INTEGRATION",
+  "selected_model": "Logistic Regression",
+  "threshold": 0.275,
+  "feature_count": 35,
+  "validation_macro_f1": 1.0,
+  "validation_f1": 1.0,
+  "validation_pr_auc": 1.0,
+  "validation_roc_auc": 1.0,
+  "test_macro_f1": 0.985569055293826,
+  "test_f1": 0.972972972972973,
+  "test_pr_auc": 0.9390144634920178,
+  "test_roc_auc": 0.9973544973544973,
+  "model_path": "/content/drive/MyDrive/Razorpay_AI/ml/models/reconciliation/best_reconciliation_model.joblib",
+  "reference_provenance_gate": true,
+  "source_id_group_audit": "NOT_VERIFIABLE",
+  "architecture_role": "ML matching only after deterministic reconciliation"
+}

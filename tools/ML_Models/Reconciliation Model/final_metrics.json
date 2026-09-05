@@ -1,0 +1,65 @@
+{
+  "selected_model": "Logistic Regression",
+  "threshold": 0.275,
+  "feature_count": 35,
+  "validation": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "macro_f1": 1.0,
+    "pr_auc": 1.0,
+    "roc_auc": 1.0,
+    "threshold": 0.275,
+    "predicted_positive_rate": 0.0657439446366782,
+    "confusion_matrix": [
+      [
+        270,
+        0
+      ],
+      [
+        0,
+        19
+      ]
+    ]
+  },
+  "test": {
+    "accuracy": 0.9965635738831615,
+    "precision": 0.9473684210526315,
+    "recall": 1.0,
+    "f1": 0.972972972972973,
+    "macro_f1": 0.985569055293826,
+    "pr_auc": 0.9390144634920178,
+    "roc_auc": 0.9973544973544973,
+    "threshold": 0.275,
+    "predicted_positive_rate": 0.06529209621993128,
+    "confusion_matrix": [
+      [
+        272,
+        1
+      ],
+      [
+        0,
+        18
+      ]
+    ]
+  },
+  "dataset_shapes": {
+    "train": [
+      1351,
+      36
+    ],
+    "validation": [
+      289,
+      36
+    ],
+    "test": [
+      291,
+      36
+    ]
+  },
+  "source_id_group_audit": {
+    "status": "NOT_VERIFIABLE"
+  },
+  "reference_provenance_verified": true
+}

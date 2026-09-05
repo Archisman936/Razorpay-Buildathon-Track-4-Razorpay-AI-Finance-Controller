@@ -1,0 +1,2 @@
+model,accuracy,balanced_accuracy,macro_precision,macro_recall,macro_f1,weighted_f1,roc_auc_ovr_macro
+Logistic Regression,1.0,1.0,1.0,1.0,1.0,1.0,1.0

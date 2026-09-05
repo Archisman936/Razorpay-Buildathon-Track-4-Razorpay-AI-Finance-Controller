@@ -1,0 +1,10 @@
+split,feature,dtype,nunique,roc_auc,positive_rate_when_truthy
+train,reference_exact_match,int64,2,0.620253164556962,1.0
+train,utr_similarity,float64,54,0.9997412626383251,0.05847520355292376
+train,description_token_overlap,float64,7,0.5871944908844837,0.12631578947368421
+validation,reference_exact_match,int64,2,0.5789473684210527,1.0
+validation,utr_similarity,float64,38,0.9999999999999999,0.0657439446366782
+validation,description_token_overlap,float64,2,0.5419103313840157,0.13043478260869565
+test,reference_exact_match,int64,2,0.637057387057387,0.8333333333333334
+test,utr_similarity,float64,41,0.9968457468457468,0.061855670103092786
+test,description_token_overlap,float64,2,0.5433455433455434,0.0975609756097561
